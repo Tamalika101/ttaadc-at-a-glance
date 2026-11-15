@@ -18,3 +18,13 @@ Cross-checks (all matched):
 
 Constituency names follow the Voterlist/India TV spelling; spellings vary across sources.
 Only the top two candidates are listed per seat, so other parties appear only in the party totals.
+
+## 2021 election (6 April 2021, counted 10 April 2021)
+
+- `ttaadc_2021_winners.csv` and `party_shares_2021.csv`: Wikipedia, "2021 Tripura Tribal Areas Autonomous District
+  Council election". https://en.wikipedia.org/wiki/2021_Tripura_Tribal_Areas_Autonomous_District_Council_election
+- Only the winning side per seat is used. The page's vote counts are incomplete (seats 8 and 24 have none) and several
+  stated margins do not match the vote table, so 2021 margins are not shown.
+- "TMP alliance" = Tipra Motha (TIPRA) and its ally INPT, which together won 18 seats (TIPRA 16, INPT 2); the page does
+  not say which two seats INPT won. Seat 8 is listed as won by an Independent, but the page's tables conflict.
+- 2021 seat tally: TMP alliance 18, BJP 9, Independent 1.

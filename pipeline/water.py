@@ -22,7 +22,13 @@ def classify(villages: pd.DataFrame) -> pd.DataFrame:
         keys = [R.norm(n) for n in names]
         council_only = [k for k in keys if k in vc_by_key.index and k not in gp_keys]
         both = [k for k in keys if k in vc_by_key.index and k in gp_keys]
-        if row.lgd_village_code not in with_gp:
+        gp_only = [k for k in keys if k in gp_keys and k not in vc_by_key.index]
+        code = row.get("lgd_village_code") if hasattr(row, "get") else row.lgd_village_code
+        if not code or (isinstance(code, float)):
+            # older snapshots sometimes lack the LGD code: decide from local body names alone
+            area = "council" if council_only and not gp_only else ("split" if council_only else "outside")
+            vc_keys = council_only + (both if area == "council" else [])
+        elif code not in with_gp:
             area = "council"
             vc_keys = council_only + both
         elif council_only:
@@ -100,3 +106,35 @@ def villages_table(v: pd.DataFrame) -> list:
     keep = v[v["area"] != "outside"]
     return [{"v": r.village, "z": None if pd.isna(r.zone) else r.zone, "d": r.district, "b": r.block, "a": r.area,
              "h": int(r.households), "c": int(r.hh_connections)} for r in keep.itertuples()]
+
+
+def history(snapshots: dict, current: pd.DataFrame, current_label: str) -> dict:
+    """Coverage by area for each financial-year snapshot, plus the current figures."""
+    series = []
+    for fy, rows in sorted(snapshots.items()):
+        if not rows:
+            continue
+        v = classify(pd.DataFrame(rows))
+        a = {k: _agg(g) for k, g in v.groupby("area")}
+        series.append({"label": f"FY {fy}", "council": a.get("council"), "outside": a.get("outside"),
+                       "no_lgd_code": int(v["lgd_village_code"].isna().sum())})
+    a = {k: _agg(g) for k, g in current.groupby("area")}
+    series.append({"label": current_label, "council": a.get("council"), "outside": a.get("outside"), "no_lgd_code": 0})
+
+    zones_change = []
+    first = next((fy for fy, rows in sorted(snapshots.items()) if rows), None)
+    if first:
+        v0 = classify(pd.DataFrame(snapshots[first]))
+        c0 = v0[v0["area"] == "council"].dropna(subset=["zone"])
+        c1 = current[current["area"] == "council"].dropna(subset=["zone"])
+        g0 = c0.groupby("zone")[["households", "hh_connections"]].sum()
+        g1 = c1.groupby("zone")[["households", "hh_connections"]].sum()
+        for z in g1.index.intersection(g0.index):
+            if " / " in z:
+                continue
+            before = g0.loc[z, "hh_connections"] / g0.loc[z, "households"]
+            after = g1.loc[z, "hh_connections"] / g1.loc[z, "households"]
+            zones_change.append({"zone": z, "before": round(float(before), 4), "after": round(float(after), 4),
+                                 "connections_added": int(g1.loc[z, "hh_connections"] - g0.loc[z, "hh_connections"])})
+        zones_change.sort(key=lambda r: r["after"] - r["before"])
+    return {"series": series, "first_snapshot": first, "zones_change": zones_change}

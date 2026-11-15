@@ -56,3 +56,22 @@ def test_election_summary():
     assert e["summary"]["won"] == {"TMP": 24, "BJP": 4}
     for s in e["seats"]:
         assert s["winner_votes"] - s["runner_up_votes"] == s["margin"]
+
+
+def test_election_change_since_2021():
+    c = election.summarise()["change_2021"]
+    assert c["tally_2021"] == {"TMP alliance": 18, "BJP": 9, "Independent": 1}
+    assert c["changed_count"] == 6
+
+
+def test_school_summary():
+    from pipeline import schools
+    df = pd.DataFrame([
+        {"status": "Operational", "location_type": "Rural", "management": "Department of Education", "area": "council",
+         "zone": "Ambassa", "total_teachers": 1, "class_students": 20, "school_category": "Primary"},
+        {"status": "Operational", "location_type": "Rural", "management": "Private", "area": "outside",
+         "zone": None, "total_teachers": 10, "class_students": 200, "school_category": "Primary with Upper Primary and Secondary"},
+    ])
+    s = schools.summarise(df)
+    assert s["by_area"]["council"]["single_teacher_share"] == 1.0
+    assert s["by_area"]["outside"]["secondary_share"] == 1.0

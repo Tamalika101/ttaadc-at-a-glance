@@ -37,6 +37,11 @@
       electionSection(el);
       waterSection(w);
       load("water_villages").then(villageSearch);
+      const opt = (n) => load(n).catch(() => null);
+      Promise.all([opt("map_villages"), opt("school_points")]).then(([mv, sp]) => mv && mapSection(mv, sp));
+      opt("water_history").then((h) => historySection(h, w));
+      opt("schools").then((sc) => sc && schoolsSection(sc));
+      if (el.change_2021) changeSection(el.change_2021);
     })
     .catch((e) => document.querySelector("main").insertAdjacentHTML("afterbegin",
       `<p class="error">Could not load the data (${esc(e.message)}).</p>`));
@@ -135,6 +140,100 @@
 
     $("behind-table").innerHTML = table(["Village", "Zone", "District", "Homes", "With a tap", "Coverage"],
       w.furthest_behind.map((r) => [esc(r.village), esc(r.zone || "–"), esc(r.district), fmt(r.households), fmt(r.connections), pct(r.coverage)]), [3, 4, 5]);
+  }
+
+  // ---------------------------------------------------------------- map
+  function mapSection(gj, schoolPts) {
+    const map = L.map("map-main", { scrollWheelZoom: false, zoomSnap: 0.25 }).setView([23.75, 91.75], 8.75);
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Villages: SHRUG (CC BY-NC-SA)',
+      maxZoom: 14 }).addTo(map);
+    const AREA_COL = { council: AREA.council, split: AREA.split, outside: "#d6d4ce", "town or unmatched": "#ebe9e4" };
+    const AREA_LBL = { council: "Wholly in the council area", split: "Split (partly council)", outside: "Outside the council area", "town or unmatched": "Town / no match" };
+    const colorCov = (c) => c == null ? null : BLUE[Math.min(BLUE.length - 1, Math.max(0, Math.floor((c - 0.3) / 0.7 * BLUE.length)))];
+    let layer, mode = "area";
+    const tip = (p) => [`<b>${esc(p.name)}</b>`, AREA_LBL[p.area] || p.area, p.zone ? `Zone: ${esc(p.zone)}` : null,
+      p.hh ? `${fmt(p.tap)} of ${fmt(p.hh)} homes have a tap (${pct(p.cov)})` : null].filter(Boolean).join("<br>");
+    const draw = () => {
+      if (layer) map.removeLayer(layer);
+      layer = L.geoJSON(gj, {
+        style: (f) => {
+          const p = f.properties;
+          let fill = AREA_COL[p.area] || "#ebe9e4";
+          if (mode === "water") fill = (p.area === "council" || p.area === "split") ? (colorCov(p.cov) || "#ebe9e4") : "#f1f0ec";
+          return { color: "#ffffff", weight: 0.5, fillColor: fill, fillOpacity: 0.9 };
+        },
+        onEachFeature: (f, l) => l.bindTooltip(tip(f.properties), { sticky: true }),
+      }).addTo(map);
+      if (schools && map.hasLayer(schools)) schools.bringToFront();
+      $("legend-map").innerHTML = mode === "area"
+        ? ["council", "split", "outside", "town or unmatched"].map((k) => `<span><i style="background:${AREA_COL[k]}"></i>${AREA_LBL[k]}</span>`).join("")
+        : `<span>Homes with a tap (council and split villages)</span><span>30%</span><span class="ramp" style="background:linear-gradient(90deg,${BLUE.join(",")})"></span><span>100%</span><span><i style="background:#f1f0ec"></i>Outside / no data</span>`;
+    };
+    let schools = null;
+    if (schoolPts) {
+      schools = L.layerGroup(schoolPts.map(([x, y, name, cat, t, st]) => L.circleMarker([y, x], {
+        radius: 2.5, weight: 0.5, color: "#ffffff", fillColor: t <= 1 ? "#eb6834" : "#0b0b0b", fillOpacity: 0.85,
+      }).bindTooltip(`<b>${esc(name || "School")}</b><br>${esc(cat)}<br>${t} teacher${t === 1 ? "" : "s"} · ${fmt(st)} pupils`)));
+      $("show-schools").addEventListener("change", (e) => { e.target.checked ? schools.addTo(map) : map.removeLayer(schools); });
+    } else { $("show-schools").parentElement.style.display = "none"; }
+    const seg = $("map-layer");
+    seg.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+      seg.querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b)); mode = b.dataset.layer; draw();
+    }));
+    draw();
+    try { map.fitBounds(layer.getBounds(), { padding: [10, 10] }); } catch (e) { /* keep default view */ }
+  }
+
+  // ---------------------------------------------------------------- election change since 2021
+  function changeSection(c) {
+    const changed = c.seats.filter((s) => s.changed);
+    $("change-text").textContent = `In 2021 the Tipra Motha alliance won ${c.tally_2021["TMP alliance"] || 0} seats, the BJP ${c.tally_2021.BJP || 0} and an independent 1. In 2026 Tipra Motha won ${c.tally_2026.TMP}. ${c.changed_count} seats changed hands, all of them to Tipra Motha. The BJP held only the 4 seats it won in both elections.`;
+    const sides = ["TMP alliance / TMP", "BJP", "Independent"];
+    const v21 = [c.tally_2021["TMP alliance"] || 0, c.tally_2021.BJP || 0, c.tally_2021.Independent || 0];
+    const v26 = [c.tally_2026.TMP || 0, c.tally_2026.BJP || 0, 0];
+    Plotly.newPlot("chart-change", [
+      { type: "bar", orientation: "h", name: "2021 (lighter bars)", y: sides, x: v21, marker: { color: sides.map((s, i) => [PARTY.TMP, PARTY.BJP, OTHER][i]), opacity: 0.45 }, text: v21, textposition: "outside", hovertemplate: "2021 · %{y}: %{x} seats<extra></extra>" },
+      { type: "bar", orientation: "h", name: "2026", y: sides, x: v26, marker: { color: [PARTY.TMP, PARTY.BJP, OTHER] }, text: v26, textposition: "outside", hovertemplate: "2026 · %{y}: %{x} seats<extra></extra>" },
+    ], layout({ barmode: "group", showlegend: true, legend: { orientation: "h", y: -0.25, traceorder: "normal" }, xaxis: { range: [0, 28], title: "Seats", gridcolor: css("--rule") },
+      yaxis: { autorange: "reversed" }, bargap: 0.3, margin: { l: 140, r: 30, t: 10, b: 70 } }), cfg);
+    $("change-table").innerHTML = table(["Constituency", "Won in 2021", "Won in 2026"],
+      changed.map((s) => [`${s.no}. ${esc(s.constituency)}`, esc(s.won_2021) + (s.note ? " *" : ""), esc(PARTY_NAME[s.won_2026] || s.won_2026)]))
+      + (changed.some((s) => s.note) ? `<p class="note">* ${esc(changed.find((s) => s.note).note)}.</p>` : "");
+  }
+
+  // ---------------------------------------------------------------- water over the term
+  function historySection(h, w) {
+    const s = h && h.series && h.series.filter((r) => r.council && r.outside);
+    if (!s || s.length < 2) { $("history-block").style.display = "none"; return; }
+    const first = s[0], last = s[s.length - 1];
+    const added = last.council.connections - first.council.connections;
+    $("history-text").textContent = `Tap coverage in council villages went from ${pct(first.council.coverage)} in ${first.label} to ${pct(last.council.coverage)} now, about ${fmt(added)} more homes connected. Villages outside the council area went from ${pct(first.outside.coverage)} to ${pct(last.outside.coverage)}.`;
+    Plotly.newPlot("chart-history", ["council", "outside"].map((a) => ({
+      type: "scatter", mode: "lines+markers", name: a === "council" ? "Council villages" : "Outside the council area",
+      x: s.map((r) => r.label), y: s.map((r) => r[a].coverage), line: { width: 2, color: AREA[a] }, marker: { size: 8 },
+      hovertemplate: `%{x}: %{y:.1%}<extra>${a === "council" ? "Council" : "Outside"}</extra>`,
+    })), layout({ showlegend: true, legend: { orientation: "h", y: -0.2 }, yaxis: { tickformat: ".0%", title: "Homes with a tap", gridcolor: css("--rule") }, margin: { l: 70, r: 20, t: 10, b: 70 } }), cfg);
+  }
+
+  // ---------------------------------------------------------------- schools
+  function schoolsSection(sc) {
+    const c = sc.by_area.council, o = sc.by_area.outside;
+    if (!c || !o) return;
+    $("school-cards").innerHTML = [
+      [fmt(c.schools), `rural schools in council villages (${fmt(c.students)} pupils)`],
+      [`${c.pupils_per_teacher} vs ${o.pupils_per_teacher}`, "pupils per teacher: council vs outside"],
+      [`${pct(c.secondary_share)} vs ${pct(o.secondary_share)}`, "of schools teach class 9 or above", "hl"],
+    ].map(([b, t, k]) => `<div class="stat ${k || ""}"><b>${b}</b><span>${t}</span></div>`).join("");
+    $("school-text").textContent = `Council villages had many small schools, so each teacher had fewer pupils. But fewer of their schools went beyond class 8, so fewer villages had classes 9 and up close by. And ${pct(c.single_teacher_share, 1)} of their schools had only one teacher, against ${pct(o.single_teacher_share, 1)} outside.`;
+    const metrics = [["Teach class 9 or above", "secondary_share"], ["Only one teacher", "single_teacher_share"]];
+    Plotly.newPlot("chart-schools", ["council", "outside"].map((a) => ({
+      type: "bar", name: a === "council" ? "Council villages" : "Outside the council area", x: metrics.map((m) => m[0]),
+      y: metrics.map((m) => sc.by_area[a][m[1]]), marker: { color: AREA[a], line: { color: css("--surface"), width: 2 } },
+      hovertemplate: `%{x}: %{y:.1%} of schools<extra>${a === "council" ? "Council" : "Outside"}</extra>`,
+    })), layout({ barmode: "group", showlegend: true, legend: { orientation: "h", y: -0.2 }, yaxis: { tickformat: ".0%", title: "Share of rural schools", gridcolor: css("--rule") }, bargap: 0.3, margin: { l: 70, r: 20, t: 10, b: 70 } }), cfg);
+    $("school-zones").innerHTML = table(["Zone", "Schools", "Pupils", "Pupils per teacher", "Only one teacher", "Teach class 9+"],
+      sc.zones.slice(0, 15).map((z) => [esc(z.zone), fmt(z.schools), fmt(z.students), z.pupils_per_teacher, pct(z.single_teacher_share), pct(z.secondary_share)]), [1, 2, 3, 4, 5]);
   }
 
   function villageSearch(rows) {

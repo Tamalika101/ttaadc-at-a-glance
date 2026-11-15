@@ -6,22 +6,39 @@
 <title>TTAADC at a Glance: the 2026 election and drinking water in Tripura's tribal council area</title>
 <meta name="description" content="A data view of the Tripura Tribal Areas Autonomous District Council: who won each seat in 2026, and how many homes in the council area have tap water.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="hero">
   <p class="kicker">A data view · Tripura, India</p>
   <h1>TTAADC at a Glance</h1>
-  <p class="dek">The Tripura Tribal Areas Autonomous District Council governs about two-thirds of Tripura's land and its tribal communities. This page shows who represents each part of the council area after the April 2026 election, and how far piped drinking water has reached its villages.</p>
+  <p class="dek">The Tripura Tribal Areas Autonomous District Council governs about two-thirds of Tripura's land and its tribal communities. This page maps the council area village by village and shows who won its seats in 2021 and 2026, how far piped drinking water has reached, and what its schools looked like when the current term began.</p>
   <div class="stats" id="hero-stats"></div>
   <p class="updated" id="updated"></p>
-  <nav class="toc"><a href="#election">1 · 2026 election</a><a href="#water">2 · Drinking water</a><a href="#method">Method &amp; sources</a></nav>
+  <nav class="toc"><a href="#map">Map</a><a href="#election">1 · Elections</a><a href="#water">2 · Drinking water</a><a href="#schools">3 · Schools</a><a href="#method">Method &amp; sources</a></nav>
 </header>
 
 <main>
-<section id="election" class="act">
+<section id="map" class="act">
+  <p class="act-label">Explore</p>
+  <h2>The council area, village by village</h2>
+  <p class="lede">Each shape is a village (2011 Census outlines). Pick a layer, then hover or tap a village for its details. Zoom with the + and − buttons.</p>
+  <div class="block wide">
+    <div class="seg" role="tablist" id="map-layer">
+      <button data-layer="area" class="on">Council area</button>
+      <button data-layer="water">Tap water coverage</button>
+    </div>
+    <label class="check"><input type="checkbox" id="show-schools"> Show schools (around 2021–22)</label>
+    <div id="map-main" class="map"></div>
+    <div id="legend-map" class="legend"></div>
+    <p class="note">Village outlines can be off by up to about 1 km. 44 council villages created after 2011 have no outline. Constituency boundaries are not public, so the map shows villages and zones, not constituencies.</p>
+  </div>
+</section>
+
+<section id="election" class="act alt">
   <p class="act-label">Section 1</p>
-  <h2>The 2026 council election</h2>
+  <h2>Council elections</h2>
   <p class="lede" id="election-lede"></p>
 
   <article class="block">
@@ -42,13 +59,20 @@
     <div id="close-table" class="table-wrap"></div>
   </article>
 
+  <article class="block">
+    <h3>What changed since 2021</h3>
+    <p id="change-text"></p>
+    <div id="chart-change" class="chart short"></div>
+    <div id="change-table" class="table-wrap"></div>
+  </article>
+
   <details class="block">
     <summary>All 28 results</summary>
     <div id="results-table" class="table-wrap"></div>
   </details>
 </section>
 
-<section id="water" class="act alt">
+<section id="water" class="act">
   <p class="act-label">Section 2</p>
   <h2>Drinking water</h2>
   <p class="lede">Under the national Jal Jeevan Mission, every rural home is meant to get a working household tap. Here's how the council's own villages compare with the rest of rural Tripura, using the mission's village-by-village records.</p>
@@ -57,6 +81,12 @@
     <h3>The council area lags behind</h3>
     <div id="water-gap" class="gap"></div>
     <p id="water-gap-text"></p>
+  </article>
+
+  <article class="block" id="history-block">
+    <h3>Progress over the council term</h3>
+    <p id="history-text"></p>
+    <div id="chart-history" class="chart"></div>
   </article>
 
   <article class="block">
@@ -91,18 +121,42 @@
   </article>
 </section>
 
+<section id="schools" class="act alt">
+  <p class="act-label">Section 3</p>
+  <h2>Schools at the start of the term</h2>
+  <p class="lede">The latest open school-by-school records (UDISE, around the 2021–22 school year) show what schooling looked like in the council area when the 2021–26 council took office. These are not current figures.</p>
+  <article class="block">
+    <h3>Smaller schools, fewer secondary classes</h3>
+    <div id="school-cards" class="gap"></div>
+    <p id="school-text"></p>
+    <div id="chart-schools" class="chart"></div>
+  </article>
+  <article class="block">
+    <h3>Single-teacher schools by zone</h3>
+    <p>Share of each zone's schools (in villages wholly in the council area) with only one teacher. Zones with fewer than 10 schools are left out.</p>
+    <div id="school-zones" class="table-wrap"></div>
+  </article>
+</section>
+
 <section id="method" class="act method">
   <h2>Method &amp; limitations</h2>
   <div id="method-body">
     <p><b>Election.</b> The official results portal of the Tripura State Election Commission cannot be opened from outside India, so the constituency results were compiled from Wikipedia's results table and checked against news reports (India TV, Tripura Star News, Voterlist.co.in). Only the winner and runner-up are listed for each seat. Margin in points is the winner's vote share minus the runner-up's.</p>
     <p><b>Which villages are in the council area.</b> The government's Local Government Directory (LGD) lists the council's 587 village councils and links every other village to a Gram Panchayat. A village with no Gram Panchayat is counted as wholly in the council area. A village that has Gram Panchayats but where the water records also name a council village council is counted as <em>split</em>. The water records give one figure per village, so split villages are shown separately rather than divided.</p>
     <p><b>Zones</b> are the council's 40 Block Advisory Committees, the level between the council and its village councils. Zone figures cover only villages wholly in the council area, so a zone made up mostly of split villages may show only a few villages. Constituency-level water figures are not shown: no public list maps villages to the 28 constituencies.</p>
+    <p><b>Map.</b> Village outlines are from the SHRUG open polygons (Development Data Lab, 2011 Census villages; CC BY-NC-SA 4.0), joined to the LGD village list through Census 2011 codes. Outlines carry up to about 1 km of error.</p>
+    <p><b>Schools.</b> UDISE school records from India Data Portal, which lists years covered up to 2021, so they describe roughly the 2021–22 school year. Schools are placed in villages from their recorded coordinates; schools in towns or with coordinates outside any village outline are left out. "Offers secondary" means the school teaches class 9 or above.</p>
+    <p><b>Water over time.</b> The Jal Jeevan Mission report keeps one snapshot per financial year. Older snapshots sometimes lack village codes; those villages are placed in the council area from the names of their local bodies.</p>
+    <p><b>2021 election.</b> From Wikipedia's 2021 results page. Only the winning side per seat is used, because that page's vote counts are incomplete. "TMP alliance" means Tipra Motha with its ally INPT.</p>
     <p><b>Water data</b> are reported by state water departments to the Jal Jeevan Mission and are not independently verified. They count tap connections, not whether water flows reliably or is safe to drink. Jobs data (MGNREGA, replaced by VB-G RAM G in July 2026) are not included yet: the official portal is unreachable from outside India and data are still moving to the new scheme.</p>
   </div>
   <h3>Sources</h3>
   <ul>
     <li><a href="https://en.wikipedia.org/wiki/2026_Tripura_Tribal_Areas_Autonomous_District_Council_election">2026 TTAADC election</a> (Wikipedia), cross-checked with <a href="https://www.tripurastarnews.com/?p=108624">Tripura Star News</a> and <a href="https://voterlist.co.in/ttaadc-election-results-2026-live-counting-updates/">Voterlist.co.in</a></li>
     <li><a href="https://ejalshakti.gov.in/JJM/JJMReports/Physical/JJMRep_VillageWiseFHTCCoverage.aspx">Jal Jeevan Mission, Format J7: village-wise tap connection coverage</a> (Ministry of Jal Shakti)</li>
+    <li><a href="https://www.devdatalab.org/shrug_download/">SHRUG open polygons</a> (Development Data Lab; Asher, Lunt, Matsuura and Novosad 2021), CC BY-NC-SA 4.0</li>
+    <li><a href="https://ckandev.indiadataportal.com/dataset/udise">UDISE school records</a> (India Data Portal)</li>
+    <li><a href="https://en.wikipedia.org/wiki/2021_Tripura_Tribal_Areas_Autonomous_District_Council_election">2021 TTAADC election</a> (Wikipedia)</li>
     <li><a href="https://lgdirectory.gov.in/">Local Government Directory</a> (Ministry of Panchayati Raj): Tripura villages, Gram Panchayats and TTAADC village councils</li>
   </ul>
 </section>
@@ -113,6 +167,7 @@
 </footer>
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

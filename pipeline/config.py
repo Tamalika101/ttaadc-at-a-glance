@@ -14,3 +14,6 @@ TRIPURA_JJM_STATE_ID = "30"
 
 # Villages with fewer households than this are left out of "furthest behind" lists.
 MIN_HOUSEHOLDS_FOR_RANKING = 50
+
+# Water history: one snapshot per financial year from the start of the 2021-26 council term.
+HISTORY_FIRST_FY = "2021-2022"

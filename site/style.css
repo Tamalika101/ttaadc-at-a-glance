@@ -98,3 +98,12 @@ details.block summary { cursor: pointer; font-family: var(--serif); font-size: 1
 .finder input { width: 100%; font: 1.1rem var(--sans); padding: .7rem 1rem; border: 2px solid var(--rule); border-radius: 10px; background: var(--surface); color: var(--ink); }
 .finder input:focus { outline: none; border-color: var(--accent); }
 .pill { display: inline-block; padding: .05rem .5rem; border-radius: 999px; font-size: .8rem; background: var(--surface-2); color: var(--ink-2); }
+
+.map { width: 100%; height: 620px; border-radius: 8px; border: 1px solid var(--rule); background: var(--surface-2); }
+.leaflet-container { font: 14px var(--sans); }
+.leaflet-tooltip { font: 13px/1.45 var(--sans); padding: .5rem .7rem; }
+.check { display: inline-flex; gap: .4rem; align-items: center; margin: 0 0 .8rem 1rem; font-size: .9rem; color: var(--ink-2); }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 999px; padding: 3px; margin: .5rem 0 1rem; }
+.seg button { border: 0; background: none; padding: .4rem 1rem; border-radius: 999px; font: 500 .9rem var(--sans); color: var(--ink-2); cursor: pointer; }
+.seg button.on { background: var(--ink); color: var(--surface); }
+.legend .ramp { display: inline-block; width: 180px; height: 12px; border-radius: 3px; vertical-align: middle; margin: 0 .5rem; }

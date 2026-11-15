@@ -4,8 +4,10 @@
 
 A data view of the **Tripura Tribal Areas Autonomous District Council (TTAADC)**, which governs about two-thirds of Tripura's land. It is built only on real, recent public data, and leaves out anything that can't be backed by it.
 
-1. **The 2026 council election:** winner, runner-up, votes and margin in all 28 constituencies, plus party vote shares.
-2. **Drinking water:** how many homes have a household tap in the council's own villages, compared with the rest of rural Tripura, by council zone, district and village. This section **refreshes automatically every week** from the national Jal Jeevan Mission dashboard.
+- **Interactive map** of the council area, village by village: which villages are in the council area, tap coverage, and schools.
+1. **Council elections:** winner, runner-up, votes and margin in all 28 constituencies in 2026, plus which seats changed hands since 2021.
+2. **Drinking water:** how many homes have a household tap in the council's own villages, compared with the rest of rural Tripura, by council zone, district and village. This section **refreshes automatically every week** from the national Jal Jeevan Mission dashboard, and tracks progress through the 2021–26 council term.
+3. **Schools at the start of the term:** school size, teachers and secondary-level access around 2021–22, from UDISE records.
 
 ## Key findings (as of November 2026)
 
@@ -13,6 +15,8 @@ A data view of the **Tripura Tribal Areas Autonomous District Council (TTAADC)**
 - Homes in villages wholly under the council are **less likely to have a tap: about 82%, against 89%** in villages outside it. That leaves roughly 48,000 council-village homes without one.
 - **29 council villages are below 50% coverage, against 2 outside the council area.**
 - The gap shows up in 6 of Tripura's 8 districts.
+- Six seats changed hands between 2021 and 2026, all to Tipra Motha; the BJP fell from 9 seats to 4.
+- Around 2021–22, council-village schools had fewer pupils per teacher (15.5 vs 20.7), but only 11% taught class 9 or above, against 19% outside the council area.
 
 ## How it works
 
@@ -31,7 +35,10 @@ GitHub Actions runs the chain every Monday
 | `pipeline/election.py` | Election summary from `data/election/` |
 | `data/election/SOURCES.md` | Where every election number came from and how it was cross-checked |
 | `data/reference/README.md` | The LGD lists and how they were downloaded |
-| `site/` | Static website (HTML + Plotly) |
+| `pipeline/fetch_schools.py` | Downloads Tripura's UDISE school records from India Data Portal |
+| `pipeline/geo.py` | Village map layer and point-in-village placement of schools |
+| `data/reference/tripura_villages_pc11.geojson` | Village outlines (SHRUG open polygons, CC BY-NC-SA 4.0) |
+| `site/` | Static website (HTML + Plotly + Leaflet) |
 
 ## Run it yourself
 
@@ -53,4 +60,10 @@ python -m http.server -d site 8000      # open http://localhost:8000
 
 - [Jal Jeevan Mission, Format J7](https://ejalshakti.gov.in/JJM/JJMReports/Physical/JJMRep_VillageWiseFHTCCoverage.aspx), Ministry of Jal Shakti
 - [Local Government Directory](https://lgdirectory.gov.in/), Ministry of Panchayati Raj
+- [SHRUG open polygons](https://www.devdatalab.org/shrug_download/), Development Data Lab (CC BY-NC-SA 4.0)
+- [UDISE school records](https://ckandev.indiadataportal.com/dataset/udise), India Data Portal
 - [2026 TTAADC election, Wikipedia](https://en.wikipedia.org/wiki/2026_Tripura_Tribal_Areas_Autonomous_District_Council_election), cross-checked with news reports (see `data/election/SOURCES.md`)
+
+## Licence note
+
+The village outlines in `data/reference/tripura_villages_pc11.geojson` and the map built from them are derived from SHRUG's open polygons and shared under CC BY-NC-SA 4.0 (non-commercial, share-alike).

@@ -86,8 +86,8 @@ def parse_village_table(soup):
     return out
 
 
-def fetch():
-    fy = financial_year()
+def fetch(fy=None):
+    fy = fy or financial_year()
     r = _req("GET", C.JJM_ENTRY)
     soup = BeautifulSoup(r.text, "html.parser")
     reported = re.search(r"Reported till\s*([0-9/]+)", soup.get_text(" "))
@@ -120,6 +120,12 @@ def fetch():
     }
 
 
+def past_years(first=C.HISTORY_FIRST_FY):
+    """Financial years from `first` up to, but not including, the current one."""
+    start, now = int(first[:4]), int(financial_year()[:4])
+    return [f"{y}-{y + 1}" for y in range(start, now)]
+
+
 def main():
     C.RAW.mkdir(parents=True, exist_ok=True)
     data = fetch()
@@ -128,6 +134,16 @@ def main():
     out = C.RAW / "jjm_tripura_villages.json"
     out.write_text(json.dumps(data, indent=1))
     print(f"Saved {len(data['villages'])} villages (reported till {data['reported_till']}) -> {out}")
+
+    history = {}
+    for fy in past_years():
+        print(f"Financial year {fy}")
+        try:
+            history[fy] = fetch(fy)["villages"]
+        except Exception as e:  # history is a bonus: never fail the build over it
+            print(f"  skipped {fy}: {e}", file=sys.stderr)
+    (C.RAW / "jjm_tripura_history.json").write_text(json.dumps(history))
+    print(f"Saved history for {len(history)} past financial years")
 
 
 if __name__ == "__main__":

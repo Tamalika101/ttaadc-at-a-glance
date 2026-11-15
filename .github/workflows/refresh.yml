@@ -37,6 +37,9 @@ jobs:
       - name: Download latest water data (Jal Jeevan Mission)
         run: python -m pipeline.fetch_jjm
 
+      - name: Download school records (India Data Portal)
+        run: python -m pipeline.fetch_schools
+
       - name: Build site data
         run: python -m pipeline.run_all
 
