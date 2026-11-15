@@ -1,0 +1,634 @@
+Local Government Directory
+Traditional Local bodies of Tripura state
+""
+S.No.,Local Body Code,Local Body Version,Local Body Name         (In English),Local Body Name (In Local),Localbody Type  Code,Local  Body  Type Name,Parent Localbody Code
+1.0,273349,2,Aari,Aari,11,Village Council,6937
+2.0,253979,4,Abangchara,আভাংগাছড়া,11,Village Council,6945
+3.0,254237,4,Abhicharan,অভিচরন,11,Village Council,6944
+4.0,254050,1,Adipur,আদিপুর,11,Village Council,6922
+5.0,254082,2,Ailmara,আইলমাড়া,11,Village Council,6946
+6.0,254259,1,Akhrabari,আখড়াবাড়ি,11,Village Council,6943
+7.0,254160,1,Amarendra Nagar,অমরেনদ্র নগর,11,Village Council,6939
+8.0,254126,2,Amtali,আমতলি,11,Village Council,261203
+9.0,254228,3,Anandapur,আনন্দপুর,11,Village Council,261201
+10.0,253899,2,Ananda Sagar,আনন্দ সাগর,11,Village Council,6914
+11.0,253949,3,Andhar Cherra,অন্ধ্রছড়া,11,Village Council,6915
+12.0,253874,3,Aparaskar,অপারস্কর,11,Village Council,6917
+13.0,253875,4,Ashapurna Roaja Para,আশাপুর্ণ রোআজা পাড়া,11,Village Council,6917
+14.0,273638,4,Asharambari,আসারাম বাড়ি,11,Village Council,6933
+15.0,254206,2,Ashighar,আশিঘর,11,Village Council,6937
+16.0,254247,1,Atharamura,আঠারমুরা,11,Village Council,6932
+17.0,254033,3,Atharobhola,আঠারবোলা,11,Village Council,6924
+18.0,254281,4,Badlabari,বদলাবাড়ী,11,Village Council,6933
+19.0,254260,2,Bagabil,বগাবিল,11,Village Council,6943
+20.0,254083,1,Bagachatal,বাগাচাতাল,11,Village Council,6946
+21.0,253980,3,Bagafa,বগাফা,11,Village Council,6928
+22.0,253950,3,Bagaicherra,বাগাইছড়া,11,Village Council,6915
+23.0,254034,1,Bagma,বাগমা,11,Village Council,6924
+24.0,253794,2,Bagmara,বাগমারা,11,Village Council,6918
+25.0,254084,5,Bagmara,বাগমারা,11,Village Council,6931
+26.0,253981,3,Baikhora,বাইখোরা,11,Village Council,6928
+27.0,254142,2,Baikunthapur,বৈকুন্ঠপুর,11,Village Council,6942
+28.0,254085,4,Baishnabpur,বৈষ্ণবপুর,11,Village Council,6931
+29.0,254061,2,Baishyamani,বৈয্যমণি,11,Village Council,6926
+30.0,253795,1,Balaram,বলরাম,11,Village Council,6918
+31.0,254307,4,Balichara,বালিছড়া,11,Village Council,261185
+32.0,254304,2,Balidhum,বালিধুম,11,Village Council,6904
+33.0,254143,2,Balurbondh,বালুরবন্ধ,11,Village Council,6942
+34.0,273639,5,Banbazar,বনবাজার,11,Village Council,6933
+35.0,254127,4,Bangshibari,বংশিবাড়ি,11,Village Council,261203
+36.0,254086,2,Bankul Mahamoni,বন্কুল মহামনী,11,Village Council,6931
+37.0,254128,2,Banstali,বাঁশতলি,11,Village Council,261203
+38.0,254087,1,Barabil,বারাবিল,11,Village Council,6946
+39.0,254177,2,Bardhaman Thakur Para,বর্ধমাণ ঠাকুর পাড়া,11,Village Council,261194
+40.0,254144,1,Barkhatal,বড়কাঠাল,11,Village Council,6942
+41.0,254129,2,Bathanmura,বাথানমুড়া,11,Village Council,261203
+42.0,253848,3,Battala,বটতলা,11,Village Council,6919
+43.0,253829,5,Bawalkhali,বোয়ালখালি,11,Village Council,261188
+44.0,254283,5,Behalabari,বেহালাবাড়ি,11,Village Council,6933
+45.0,254178,2,Belbari,বেলবাড়ি,11,Village Council,261195
+46.0,254108,2,Betaga,বেতাগা,11,Village Council,6930
+47.0,254238,2,Bhagaban Chow. Para,ভগবান চৌ. পাড়া,11,Village Council,6944
+48.0,253830,3,Bhagirath,ভাগিরথ,11,Village Council,6921
+49.0,254297,3,Bharat Chowdhury,ভারত চৌধুরী,11,Village Council,6942
+50.0,253962,2,Bhomracherra,ভোমরাছড়া,11,Village Council,6925
+51.0,254284,3,Bidyabil,বিদ্যবিল,11,Village Council,6933
+52.0,254313,2,Bijoynagar,বিজয়নগর,11,Village Council,2898
+53.0,273403,1,Bikram Molsom,বিক্রম মল্সম,11,Village Council,261195
+54.0,253982,1,Birchandranagar,বীরচন্দ্রনগর,11,Village Council,6928
+55.0,253983,4,Birendranagar,বিরেন্দ্রনগর,11,Village Council,6945
+56.0,254239,2,Birmohan,বীরমোহন,11,Village Council,6944
+57.0,254088,4,Bishnupur,বিষ্ণুপুর,11,Village Council,6931
+58.0,254207,4,Bishrambari,বিশ্রামবাড়ি,11,Village Council,6936
+59.0,254240,2,Bodhjungnagar,বোধজঞ্জনগর,11,Village Council,6944
+60.0,254208,1,Borakha,বুরাখা,11,Village Council,6937
+61.0,254051,2,Brahmmachara,ব্রম্মছড়া,11,Village Council,6922
+62.0,273407,1,Bubagwra,বুবাগ্ব্রা,11,Village Council,261195
+63.0,273366,2,Burburia,বুর্বুরিয়া,11,Village Council,6925
+64.0,253849,6,Chailengta,ছৈলেংটা,11,Village Council,6919
+65.0,253796,2,Chakma Para,চাকমাপাড়া,11,Village Council,261187
+66.0,254109,2,Chaliachari,চালিয়াছড়ি,11,Village Council,6930
+67.0,254089,2,Chalita Bankul,চালিতা বন্কুল,11,Village Council,6931
+68.0,253815,1,Chaltacherra,চালতাছড়া,11,Village Council,6920
+69.0,254179,2,Champabari,চম্পাবাড়ি,11,Village Council,261195
+70.0,254180,2,Champaknagar,চম্পকনগর,11,Village Council,261195
+71.0,253900,3,Chandipur,চন্ডিপুর,11,Village Council,261184
+72.0,254145,1,Chandpur,চাঁদপুর,11,Village Council,6942
+73.0,254308,2,Chandra Halam Para,চল্দ্রহালাম পাড়া,11,Village Council,2889
+74.0,254229,3,Chandul,চন্দুল,11,Village Council,261201
+75.0,254181,4,Chargharia,চারঘরিযা,11,Village Council,6937
+76.0,254090,1,Chatakchari,চাতকছড়ি,11,Village Council,6931
+77.0,254062,2,Chechua,ছেছুয়া,11,Village Council,6926
+78.0,254016,3,Chellagang,চেলাগাং,11,Village Council,6927
+79.0,253850,2,Chiching Cherra,চিচিংছড়া,11,Village Council,6919
+80.0,254130,3,Chikancherra,চিকনছড়া,11,Village Council,6939
+81.0,273392,1,Chitrajhari,চিত্রাঝারী,11,Village Council,6921
+82.0,254035,4,Choygharia,চয়্ঘরিয়া,11,Village Council,6939
+83.0,253901,1,Daincherra,দৈনছড়া,11,Village Council,6914
+84.0,253963,1,Dalak,ডালাক,11,Village Council,6925
+85.0,253831,1,Dalapati,দলপতি,11,Village Council,6921
+86.0,253852,2,Dalucherra,ডালুছড়া,11,Village Council,6919
+87.0,253890,2,Damcherra,দামছেড়া,11,Village Council,6913
+88.0,253891,2,Damcherra R.F,দামছেড়া আর অফ,11,Village Council,6913
+89.0,253942,1,Darchawi,দারচুয়াই,11,Village Council,6911
+90.0,254038,2,Darjeeling,দার্জিলিং,11,Village Council,6924
+91.0,253905,4,Dasamani Para,দশমণিপাড়া,11,Village Council,6914
+92.0,254231,2,Dasarath Bari,দশরথবাড়ী,11,Village Council,261201
+93.0,254110,5,Dasharath Nagar,দশরথ নগর,11,Village Council,261204
+94.0,254314,2,Dayalpara,দয়ালপাড়া,11,Village Council,2898
+95.0,254131,5,Dayarampara,দয়ারামপাড়া,11,Village Council,6939
+96.0,253816,3,Debacherra,দেবাছড়া,11,Village Council,6920
+97.0,253986,4,Debipur,দেবীপুর,11,Village Council,6928
+98.0,253853,2,Demcherra,ডেমছড়া,11,Village Council,6919
+99.0,253943,1,Demdum,দেমদুম,11,Village Council,6911
+100.0,253927,3,Deoracherra,দেওরাছেড়া,11,Village Council,2886
+101.0,253854,1,Deo R.F,দেও আর.এফ,11,Village Council,6919
+102.0,253944,3,Deo-Velly,দেও ভেলি,11,Village Council,6911
+103.0,254039,2,Dewanbari,দেয়ানবাড়ি,11,Village Council,6924
+104.0,253832,4,Dhalajhari,ধলাঝরি,11,Village Council,6921
+105.0,254003,3,Dhananjoy Nagar,ধনজয় নগর,11,Village Council,6929
+106.0,253878,3,Dhanchandra Chow. Para,ধনচন্দ্র চো.পাড়া,11,Village Council,6947
+107.0,254315,2,Dhanirampur,ধনিরামপুর,11,Village Council,2898
+108.0,254065,2,Dhanlakha,ধনলেখা,11,Village Council,6926
+109.0,254132,2,Dhariathal,ধরিযাথল,11,Village Council,261203
+110.0,254183,2,Dhupcharra,ধুপছেড়া,11,Village Council,261194
+111.0,254012,1,Dhuptali,ধুপতলি,11,Village Council,6923
+112.0,254210,1,Dinabandhunagar,দিনবন্ধুনগর,11,Village Council,6937
+113.0,254211,1,Dinakobra,দিনকোবরা,11,Village Council,6937
+114.0,254146,1,Dumrakaridak,দুমরাকরিডক,11,Village Council,6942
+115.0,253817,1,Durgacherra,দূর্গাছড়া,11,Village Council,6920
+116.0,254275,1,Duski,দুস্কি,11,Village Council,6935
+117.0,253958,3,East Andharcherra,পূর্ব অন্ধ্রছড়া,11,Village Council,6915
+118.0,254291,3,East Bachaibari,পূর্ব বাছাই বাড়ি,11,Village Council,6933
+119.0,273439,4,East Badlabari,পূর্ব বাদলাবাড়ি,11,Village Council,6933
+120.0,273438,2,East Behalabari,পূর্ব বেহালবাড়ি,11,Village Council,6933
+121.0,254184,2,East Belbari,পূর্ব বেলবাড়ি,11,Village Council,261195
+122.0,254267,1,East Belcherra,পূর্ব বেলছড়া,11,Village Council,6943
+123.0,253945,3,East Betchara,পূর্ব বেতছাড়া,11,Village Council,6911
+124.0,253917,1,East Bhandarima,পূর্ব ভাণ্ডারিমা,11,Village Council,6914
+125.0,254292,4,East Champacherra,পূর্ব চাম্পাছেড়া,11,Village Council,6933
+126.0,254151,2,East Chandpur,পূর্ব চাঁদপুর,11,Village Council,6942
+127.0,254057,1,East Chandrapur R.F,পূর্ব চন্দ্রপুর আর.এফ,11,Village Council,6922
+128.0,253824,2,East Chawmanu,পূর্ব ছাওমনু,11,Village Council,6920
+129.0,254221,4,East Dinabandhunagar,পূর্ব দিনবন্ধু নগর,11,Village Council,6937
+130.0,253973,1,East Duluma,পূর্ব দুলুমা,11,Village Council,6925
+131.0,254058,1,East Garjeecherra,পূর্ব গর্জিছেড়া,11,Village Council,6922
+132.0,273429,4,East Ghilatali,পূর্ব  ঘিলতলি,11,Village Council,6934
+133.0,253818,2,East Gobindabari,পূর্ব গোবিন্দবাড়ি,11,Village Council,6920
+134.0,254191,3,East Janmajoynagar,পূর্ব জন্মজযনগর,11,Village Council,261195
+135.0,254316,1,East Jarulbachai,পূর্ব জারুলবাচাই,11,Village Council,2899
+136.0,253869,1,East Karamcherra,পূর্ব করমছেড়া,11,Village Council,6919
+137.0,254019,2,East Karbook,পূর্ব করবুক,11,Village Council,6927
+138.0,253870,1,East Kathalcherra,পূর্ব কাঠালছেড়া,11,Village Council,6919
+139.0,254045,1,East Khupilong,পূর্ব খুপিলং,11,Village Council,6924
+140.0,254254,1,East Laxmipur,পূর্ব লক্ষ্মিপুর,11,Village Council,6932
+141.0,254099,4,East Ludhuya,পূর্ব লুধুয়া,11,Village Council,6931
+142.0,253974,2,East Malbasa,পূর্ব মালবাসা,11,Village Council,6925
+143.0,253819,3,East Malidhar,পূর্ব মালিধর,11,Village Council,6920
+144.0,254028,1,East Manikya Dewan,পূর্ব মানিক্য দেওয়ান,11,Village Council,6927
+145.0,273371,1,East Manu,পূর্ব মণু,11,Village Council,6919
+146.0,254100,2,East Manubankul,পূর্ব মনু বনকুল,11,Village Council,6931
+147.0,253871,1,East Masli,পূর্ব মাসলি,11,Village Council,6919
+148.0,254059,3,East Mog Puskarini,পূর্ব মগ পুস্স্করিনি,11,Village Council,6922
+149.0,254222,5,East Noabadi,পুর্ব নোযাবাদী,11,Village Council,6937
+150.0,254152,6,East Noagaon,পূর্ব নোয়াগাও,11,Village Council,6942
+151.0,253987,1,East Pillak,পূর্ব পিলাক,11,Village Council,6945
+152.0,253840,5,East Potacherra,পূর্ব পোটাছড়া,11,Village Council,261188
+153.0,254293,4,East Rajngar,পূর্ব রাজনগর,11,Village Council,6933
+154.0,273357,3,East Ratanpur,পূর্ব রতনপুর,11,Village Council,6939
+155.0,254101,2,East Sabroom,পূর্ব সাব্রুম,11,Village Council,6931
+156.0,253975,1,East Sarbong,পূর্ব সরবং,11,Village Council,6925
+157.0,273427,2,East Sardukarkari,পূর্ব সার্দুকার্কারী,11,Village Council,6935
+158.0,253918,1,East Satnala,পূর্ব সাতনালা,11,Village Council,6914
+159.0,254153,2,East Simna,পূর্ব সিমনা,11,Village Council,6942
+160.0,254319,3,East Singhicherra,পূর্ব সিংঘিছেড়া,11,Village Council,6933
+161.0,273413,4,East South Maharani,পূর্ব দক্ষিণ মহারানি,11,Village Council,6922
+162.0,254075,3,East Taichalong,পূর্ব তায়ছলং,11,Village Council,6926
+163.0,254294,3,East Takchaya,পূর্ব টাকছায়া,11,Village Council,6933
+164.0,254172,2,East Takerjala,পূর্ব টাকারজলা,11,Village Council,6939
+165.0,254154,2,East Tamakari,পূর্ব তমাকারি,11,Village Council,6942
+166.0,254119,4,East Tekka Tulshi R.F,পূর্ব টেক্কা তুলসী আর.এফ,11,Village Council,261204
+167.0,254013,2,East Tulamura,পূর্ব তুলামুড়া,11,Village Council,6923
+168.0,254066,1,Ekjancherra,একজনছড়া,11,Village Council,6926
+169.0,273372,4,Fatikcherre Dasarath Deb,ফটিকছেড়া দসরথ দেব,11,Village Council,6911
+170.0,254111,1,Fulchari,ফুলছড়ি,11,Village Council,6930
+171.0,254004,2,Gaburcherra,গাবুরছড়া,11,Village Council,6929
+172.0,253906,5,Gachiram Para,গাছিরামপাড়া,11,Village Council,6914
+173.0,254112,5,Gagan Chandra Para,গগন চন্দ্র পাড়া,11,Village Council,6930
+174.0,253855,1,Gainama,গাইনামা,11,Village Council,6919
+175.0,254067,1,Gamaicherra,গামাইছড়া,11,Village Council,6926
+176.0,254053,2,Gamaria,গামারিয়া,11,Village Council,6922
+177.0,254241,2,Gamchakobra,গামছাকোবরা,11,Village Council,6944
+178.0,253833,3,Gandacherra,গন্ডাছড়া,11,Village Council,6921
+179.0,253797,2,Ganganagar,গঙ্গানগর,11,Village Council,261187
+180.0,254113,5,Gardang,গারদং,11,Village Council,6930
+181.0,254092,1,Garifa,গরিফা,11,Village Council,6931
+182.0,254054,1,Garjee,গর্জি,11,Village Council,6922
+183.0,254264,1,Gayamanibari,গয়ামণিবাড়ি,11,Village Council,6943
+184.0,253798,3,Ghantachara,ঘন্টাছড়া,11,Village Council,6918
+185.0,254093,1,Ghorakappa,ঘোড়াকাপ্পা,11,Village Council,6946
+186.0,253928,3,Golakpur,গোলকপুর,11,Village Council,261186
+187.0,254133,2,Goliraibari,গোলীরায়বাড়ি,11,Village Council,6939
+188.0,253964,3,Gungia,গুঙ্গিযা,11,Village Council,6925
+189.0,253799,1,Gurudhan Para,গুরুধন পাড়া,11,Village Council,6918
+190.0,273359,2,Hachuk Khurio,Hachuk Khurio,11,Village Council,6939
+191.0,254276,3,Hadrai,হদরাই,11,Village Council,6935
+192.0,254094,1,Hajachari,হাজাছড়ি,11,Village Council,6946
+193.0,254302,1,Haludia,হলুদিয়া,11,Village Council,6932
+194.0,254212,1,Harbang,হারবাং,11,Village Council,6937
+195.0,254114,2,Harbatali,হারবাতালি,11,Village Council,6930
+196.0,253800,1,Harimangal,হরিমঙ্গল,11,Village Council,6918
+197.0,254068,1,Haripur,হরিপুর,11,Village Council,6926
+198.0,273420,1,Hingskang,হিন্গস্কাং,11,Village Council,6913
+199.0,253929,2,Hiracherra,হিড়াছড়া,11,Village Council,2886
+200.0,254161,2,Hirapur,হিরাপুর,11,Village Council,6939
+201.0,254285,5,Holongmutai,হলংমুতাই,11,Village Council,6933
+202.0,254020,4,Ichachari,ইছাছড়ি,11,Village Council,6927
+203.0,254232,4,Indrakumar Para,ইন্দ্রকুমার পাড়া,11,Village Council,2904
+204.0,254309,2,Indurail,ইল্দুরাইল,11,Village Council,2889
+205.0,253834,3,Jagabandhupara,জগবন্ধুপাড়া,11,Village Council,6921
+206.0,273360,2,Jagaibari,জগাইবাড়ি,11,Village Council,6939
+207.0,253801,2,Jagannathpur,জগন্নাথপুর,11,Village Council,6918
+208.0,254201,2,Jagatrampur,জগতরামপুর,11,Village Council,6941
+209.0,273431,1,Jalai Twicha,জলাই ত্বইচা,11,Village Council,6943
+210.0,273361,1,Jalaya,জলায়া,11,Village Council,6927
+211.0,254040,2,Jalema,জলেমা,11,Village Council,6924
+212.0,253907,3,Jamarai Para,জামরাইপাড়া,11,Village Council,261184
+213.0,254069,1,Jambukcherra,জম্বুকছড়া,11,Village Council,6926
+214.0,253856,2,Jamircherra,জমিরছড়া,11,Village Council,6919
+215.0,254162,3,Jampuijala,জম্পুইজলা,11,Village Council,6939
+216.0,253930,4,Jamtailbari,জামতলিবাড়ী,11,Village Council,261186
+217.0,253879,4,Jamthum,জামথুম,11,Village Council,6917
+218.0,254185,2,Janmajoynagar,জন্মজযনগর,11,Village Council,261195
+219.0,273364,1,Jatanbari,যতনবাড়ি,11,Village Council,6927
+220.0,273362,1,Jenta Twisa,যেন্তা ত্বইসা,11,Village Council,6927
+221.0,253802,3,Jeolcherra,জিওলছড়া,11,Village Council,6918
+222.0,273405,1,Jiraniakhala,জিরানিয়াখাল,11,Village Council,261195
+223.0,273365,1,Joyingbari,জয়িংবাড়ি,11,Village Council,6924
+224.0,253953,4,Joymani Para,জযমনিপাড়া,11,Village Council,261184
+225.0,254163,1,Jugal Kishorenagar,জোগল কিশোরনগর,11,Village Council,6939
+226.0,253946,2,Juricherra,জুড়িছড়া,11,Village Council,6911
+227.0,253892,3,Juri R.F,জুরি আর এফ,11,Village Council,6913
+228.0,253893,2,Kacharicherra,কাছারিছড়া,11,Village Council,6913
+229.0,254041,2,Kachigang,কঁচিগাঙ্গ,11,Village Council,6924
+230.0,253803,1,Kachimchara,কাছিমছড়া,11,Village Council,6918
+231.0,254202,4,Kaichhakhola,কৈছাখোলা,11,Village Council,6941
+232.0,254005,3,Kailash Nagar,কৈলাশনগর,11,Village Council,6929
+233.0,254213,1,Kairai,কারাই,11,Village Council,6937
+234.0,254299,1,Kaiyachanbari,কৈয়াচনবাড়ি,11,Village Council,6936
+235.0,254250,3,Kakracherra,কাঁকড়াছড়া,11,Village Council,6932
+236.0,254055,3,Kalaban,কালাবন,11,Village Council,6922
+237.0,254115,1,Kaladhepa,কালাডেপা,11,Village Council,6930
+238.0,253934,2,Kalagang,কালাগাঙগ,11,Village Council,6916
+239.0,273377,2,Kalagang Sarkhi,কালাগাং সার্খি,11,Village Council,6913
+240.0,254164,1,Kalaibari,কলইবাড়ি,11,Village Council,6939
+241.0,253835,5,Kalajhari,কালাঝরি,11,Village Council,6921
+242.0,253908,4,Kalapani,কালাপানি,11,Village Council,6914
+243.0,254317,2,Kalidas Para,কালিদাস পাড়া,11,Village Council,2899
+244.0,254203,3,Kalikhola,কালিখোলা,11,Village Council,6941
+245.0,254233,2,Kaliram,কালিরাম,11,Village Council,2904
+246.0,254116,3,Kalirbazar,কালিরবাজার,11,Village Council,6930
+247.0,253988,1,Kalshi,কলসী,11,Village Council,6945
+248.0,253989,2,Kalshimukh,কলসীমুখ,11,Village Council,6945
+249.0,253836,3,Kalyansing,কল্যানসিং,11,Village Council,6921
+250.0,253804,4,Kamalacherra,কমলাছড়া,11,Village Council,6918
+251.0,254147,3,Kamukcherra,কামুকছড়া,11,Village Council,6942
+252.0,253857,1,Kanchancherra,কাঞ্চনছড়া,11,Village Council,6919
+253.0,253909,5,Kanchancherra,কাঞ্চনছড়া,11,Village Council,261184
+254.0,253910,2,Kanchanpur,কাঞ্চনপুর,11,Village Council,261184
+255.0,253911,1,Kangrai,কাঙ্গরাই,11,Village Council,6914
+256.0,254095,1,Kaptali,কাপতলি,11,Village Council,6946
+257.0,253954,1,Karaicherra,করইছড়া,11,Village Council,6915
+258.0,253805,2,Karanmani Para,কর্নমনিপাড়া,11,Village Council,261187
+259.0,253858,1,Karaticherra,করাতিছড়া,11,Village Council,6919
+260.0,273363,1,Karbook,কর্বুক,11,Village Council,6927
+261.0,253806,2,Karma Para,কর্মাপাড়া,11,Village Council,261187
+262.0,254311,5,Kashari R.F,কাশারি আর এফ,11,Village Council,261205
+263.0,253880,1,Katalutma,কাটালুতমা,11,Village Council,6917
+264.0,253807,3,Kathalbari,কাঁঠালবাড়ি,11,Village Council,6918
+265.0,254096,2,Kathalchari,কাঁঠালছড়ি,11,Village Council,6931
+266.0,253990,1,Kathaliacherra,কাঁঠালিয়াছড়া,11,Village Council,6928
+267.0,254214,1,Kathirambari,কাঠিরামবাড়ি,11,Village Council,6937
+268.0,253935,2,Kawnpui,কানপুই,11,Village Council,6916
+269.0,253965,2,Kedarnal,খেদারনাল,11,Village Council,6925
+270.0,254165,3,Kendraicherra,কেন্দ্রাইছেড়া,11,Village Council,6939
+271.0,253912,6,Khakchang Charra,খাকচাং ছড়া,11,Village Council,6914
+272.0,254277,2,Khamarbari,খামাড়বাড়ী,11,Village Council,6935
+273.0,254215,4,Khamting Bari,খামতিং বাড়ী,11,Village Council,6937
+274.0,253894,2,Khedacherra,খেদাছড়া,11,Village Council,6913
+275.0,254216,1,Khengrai,খেন্গ্রাই,11,Village Council,6937
+276.0,273441,2,Khumpui,খুম্পুই,11,Village Council,6914
+277.0,273348,1,Khurmpui,খুর্ম্পুই,11,Village Council,6937
+278.0,254042,1,Killa,কিল্লা,11,Village Council,6924
+279.0,254166,2,Killaverma,কিল্লা বর্মা,11,Village Council,6939
+280.0,254043,1,Kowaimura,কুয়াইমুড়া,11,Village Council,6924
+281.0,254265,3,Kshirode Nagar,ক্ষীরোদ নগর,11,Village Council,6943
+282.0,253808,2,Kulai R.F. Extension,কুলাই আর.এফ.ই.,11,Village Council,6918
+283.0,253966,2,Kurmacherra,কুরমাছড়া,11,Village Council,6925
+284.0,273347,1,Kwchar,ক্ব্চার,11,Village Council,6937
+285.0,253859,2,Labancherra,লবনছড়া,11,Village Council,6919
+286.0,253860,4,Lalcherra,লালছেড়া,11,Village Council,6919
+287.0,253809,3,Lalchhari,লালছড়ি,11,Village Council,6918
+288.0,253967,3,Lalgiri,লালগিড়ি,11,Village Council,6925
+289.0,254134,3,Latiacherra,লাটিয়াছড়া,11,Village Council,6939
+290.0,253992,3,Lawgangsom,লউগাংসম,11,Village Council,6928
+291.0,253991,4,Laxmicherra,লক্ষ্মীছড়া,11,Village Council,6928
+292.0,253837,3,Laxmipur,লক্ষ্মিপুর,11,Village Council,6921
+293.0,254217,3,Laxmipur,লক্ষ্মিপুর,11,Village Council,6937
+294.0,254021,4,Lebacherra,লেবাছেড়া,11,Village Council,6927
+295.0,253936,2,Longai Valley,লংগাই ভ্যালি,11,Village Council,6916
+296.0,253861,1,Longtharai R.F.,লংতরাই আর.এফ,11,Village Council,6919
+297.0,254022,2,Lowgang,লাউগাং,11,Village Council,6927
+298.0,273376,1,Machmara,মাছমারা,11,Village Council,6915
+299.0,254187,1,Madhab Bari,মাধববাড়ি,11,Village Council,6936
+300.0,254305,3,Madhuban,মধুবন,11,Village Council,6904
+301.0,254167,1,Madhya Ghaniamara,মধ্য গণিয়ামারা,11,Village Council,6939
+302.0,253993,3,Madhya Kathalia,মধ্য কাঠালিয়া,11,Village Council,6928
+303.0,254097,1,Magroom,মগরুম,11,Village Council,6931
+304.0,253881,2,Maharanipur,মহারাণিপুর,11,Village Council,6917
+305.0,254251,2,Maharanipur,মহারাণিপুর,11,Village Council,6932
+306.0,253862,2,Mainama,মাইনামা,11,Village Council,6919
+307.0,254117,2,Maira,মাইড়া,11,Village Council,6930
+308.0,253820,2,Makarcherra,মকরছড়া,11,Village Council,6920
+309.0,253913,5,Makumcherra,মাকুমছড়া,11,Village Council,261184
+310.0,253968,2,Malbasa,মালবাসা,11,Village Council,6925
+311.0,254204,3,Manaipathar,মনাইপাথর,11,Village Council,6941
+312.0,254218,4,Mandwinagar,মান্ধাইনগর,11,Village Council,6937
+313.0,273426,1,Manik Debbarma,মানিক দেববর্মা,11,Village Council,6932
+314.0,253821,2,Manikpur,মানিকপুর,11,Village Council,6920
+315.0,254006,2,Manirampur,মণিরামপুর,11,Village Council,6929
+316.0,253863,2,Manu,মনু,11,Village Council,6919
+317.0,253994,2,Manu,মনু,11,Village Council,6928
+318.0,253914,5,Manu Chailengta,মনু ছৈইলেংটা,11,Village Council,6914
+319.0,273432,2,Mare Haduk,মাড়ে হাড়ুক,11,Village Council,6943
+320.0,254148,7,Meglibandh,মেঘলিবন্ঘ,11,Village Council,6942
+321.0,254070,1,Melchi,মেলছি,11,Village Council,6926
+322.0,253882,2,Mendhi,মেন্দী,11,Village Council,6917
+323.0,253931,2,Milong,মিলং,11,Village Council,261186
+324.0,254168,1,Mohanpur,মোহনপুর,11,Village Council,6939
+325.0,254007,2,Mohini Nagar,মোহিণিনগর,11,Village Council,6929
+326.0,253895,1,Monacherra,মোনাছড়া,11,Village Council,6913
+327.0,254023,3,Mukhchari,মুখছড়ি,11,Village Council,6927
+328.0,253955,3,Nabincherra,নবিনছড়া,11,Village Council,6915
+329.0,253864,2,Naitang Cherra,নাইথং ছড়া,11,Village Council,6919
+330.0,253883,1,Nakful,নাকফুল,11,Village Council,6917
+331.0,273430,1,Nakshirai Debbarmar,নাক্শিরাই  দেববর্মা,11,Village Council,6934
+332.0,273395,3,Nakyachara,নাক্যাচারা,11,Village Council,6921
+333.0,253865,1,Nalkata,নালকাটা,11,Village Council,6919
+334.0,253956,3,Nalkata,নালকাটা,11,Village Council,6915
+335.0,254252,6,Namanjoybari,নমনজয়বাড়ি,11,Village Council,6932
+336.0,273394,3,Narayan Pur,নারায়ন পুর,11,Village Council,6921
+337.0,273416,2,Narikal Kunja,নারিকাল কুঁজা,11,Village Council,261188
+338.0,253822,4,Natin Manu,নাতিন মনু,11,Village Council,6920
+339.0,253969,3,Natunbazar,নতুনবাজার,11,Village Council,6925
+340.0,254135,2,New Chelikhala,নিউ চেলিখলা,11,Village Council,261203
+341.0,254303,2,New Gomati,নিউ গোমতি,11,Village Council,6927
+342.0,254044,1,Noabari,নোয়াবাড়ি,11,Village Council,6924
+343.0,254310,3,Noagaon,নোয়াগাঁও,11,Village Council,2889
+344.0,254253,1,Nonacherra,নুনাছড়া,11,Village Council,6932
+345.0,254048,2,North Baramura,উত্তর বড়মুরা,11,Village Council,6924
+346.0,254106,1,North Bijoypur,উত্তর বিজয়পুর,11,Village Council,6931
+347.0,254245,2,North Bodhjungnagar,উত্তর বোধজংনগর,11,Village Council,6944
+348.0,254049,2,North Brajendra Nagar,উত্তর ব্রজেন্দ্র নগর,11,Village Council,6924
+349.0,253978,4,North Chellagang,উত্তর চেলাগাং,11,Village Council,6925
+350.0,253925,2,North Dasda,উত্তর দশদা,11,Village Council,6914
+351.0,254246,2,North Debendranagar,উত্তর দেবেন্দ্রনগর,11,Village Council,6944
+352.0,253960,3,North Dhanicherra,উত্তর ধাণিছড়া,11,Village Council,6915
+353.0,253873,1,North Dhumacherra,উত্তর ধুমাছড়া,11,Village Council,6919
+354.0,254031,1,North Ekchari,উত্তর একছড়ি,11,Village Council,6927
+355.0,254200,1,North Ghilatali,উত্তর ঘিলাতলি,11,Village Council,6934
+356.0,254258,2,North Gokulnagar,উত্তর গকুলনগর,11,Village Council,6932
+357.0,254002,1,North Hichacherra,উত্তর হিচাছড়া,11,Village Council,6945
+358.0,254195,2,North Joynagar,উত্তর জয়নগর,11,Village Council,6936
+359.0,254124,1,North Kaladhepa,উত্তর কালাডেপা,11,Village Council,6930
+360.0,253926,3,North Laljuri,উত্তর লালজুরি,11,Village Council,261184
+361.0,253826,1,North Longtharai,উত্তর লংতরাই,11,Village Council,6920
+362.0,253961,2,North Machmara,উত্তর মাছমাড়া,11,Village Council,6915
+363.0,273369,1,North Mainama,উত্তর ময়নাম,11,Village Council,6919
+364.0,254107,2,North Manubankul,উত্তর মনুবন্কুল,11,Village Council,6931
+365.0,254273,2,North Padmabil,উত্তর পদ্মবিল,11,Village Council,6943
+366.0,254279,1,North Pulinpur,উত্তর পুলিনপুর,11,Village Council,6935
+367.0,254080,2,North Sangang,উত্তর সানগাং,11,Village Council,6926
+368.0,254015,5,North Silghati,উত্তর শিলাঘাটি,11,Village Council,6923
+369.0,254236,2,North Taibandal,উত্তর তৈবান্দাল,11,Village Council,261201
+370.0,254125,4,North Taichima,উত্তর তৈছিমা,11,Village Council,6930
+371.0,273409,1,North Takarjala,উত্তর ঠাকার্জালা,11,Village Council,6939
+372.0,254081,2,North Toidu,উত্তর তৈদু,11,Village Council,6926
+373.0,254071,1,Ompicherra,অম্পিছড়া,11,Village Council,6926
+374.0,254072,2,Ompinagar,অম্পি নগর,11,Village Council,6926
+375.0,254136,2,Padmanagar,পদ্মনগর,11,Village Council,261203
+376.0,254234,2,Padmini Nagar,পদ্মিনিনগর,11,Village Council,2904
+377.0,254266,2,Paglabari,পাগলাবাড়ি,11,Village Council,6943
+378.0,253970,1,Paharpur,পাহাড়পুর,11,Village Council,6925
+379.0,254073,2,Palku,পাল্কু,11,Village Council,6926
+380.0,253884,1,Panboa,পানবুয়া,11,Village Council,6917
+381.0,253838,3,Pancharatan,পঞ্চরতন,11,Village Council,6921
+382.0,254024,1,Pangbari,পাংবাড়ী,11,Village Council,6927
+383.0,273390,1,Paschim Gandacherra,পশ্চিম  গন্ডাছড়া,11,Village Council,6921
+384.0,254137,2,Pathaliaghat,পাথালিয়াঘাট,11,Village Council,6939
+385.0,254027,1,Patichari,পতিছড়ি,11,Village Council,6927
+386.0,253995,4,Patichhari,পতিছড়ি,11,Village Council,6928
+387.0,254220,1,Patni,পাটনী,11,Village Council,6937
+388.0,253957,3,Pecharthal,পেচাঁরথল,11,Village Council,6915
+389.0,254170,2,Pekuarjala,পেকুয়ারজলা,11,Village Council,6939
+390.0,254056,2,Peratia,পেরাতিয়া,11,Village Council,6922
+391.0,253896,3,Piplacherra,পিপলা ছড়া,11,Village Council,6913
+392.0,254138,4,Pramodenagar,প্রমোদনগর,11,Village Council,6939
+393.0,254171,1,Pravapur,প্রভাপুর,11,Village Council,6939
+394.0,254197,1,Prem Singh Orang,প্রেম সিংওরাং,11,Village Council,6934
+395.0,254223,2,Rabiasardar,রাবিয়াসর্দার,11,Village Council,6937
+396.0,273421,4,Rabindranagar,রবীন্দ্রনগর,11,Village Council,261184
+397.0,254320,5,Radha Charan Nagar,রাধাচরন নগর,11,Village Council,6933
+398.0,273418,2,Radhamadhav Pur,রাধামাধাভ পুর,11,Village Council,6914
+399.0,254192,2,Radhamohanpur,রাধামোহনপুর,11,Village Council,261194
+400.0,254193,2,Radhapur,রাধা পুর,11,Village Council,261195
+401.0,253811,3,Radharambari,রাধারাম বাড়ি,11,Village Council,261187
+402.0,253897,2,Rahumcherra,রাহুম ছড়া,11,Village Council,6913
+403.0,253841,3,Raima,রাইমা,11,Village Council,261188
+404.0,273415,3,Raipassa,রাইপাস্সা,11,Village Council,6918
+405.0,273417,2,Raishyabari,রইসবাড়ি,11,Village Council,261188
+406.0,254046,2,Raiyabari,রাইয়াবাড়ি,11,Village Council,6924
+407.0,254198,3,Rajani Sardar Para,রজনী সর্দার পাড়া,11,Village Council,6934
+408.0,253996,2,Rajapur,রাজাপুর,11,Village Council,6928
+409.0,253825,4,Rajdhar,রাজধর,11,Village Council,6920
+410.0,254242,2,Rajghat,রাজঘাট,11,Village Council,6944
+411.0,253947,3,Rajkandi,রাজকান্দি,11,Village Council,6911
+412.0,253976,2,Rajkang,রাজকাং,11,Village Council,6925
+413.0,273440,1,Rajnagar,রাজনগর,11,Village Council,6933
+414.0,254029,1,Rambhadra,রামভদ্র,11,Village Council,6927
+415.0,254224,3,Ramchandranagar,রামচন্দ্র নগর,11,Village Council,6937
+416.0,254268,3,Ramdayal Bari,রামদয়ালবাড়ি,11,Village Council,6943
+417.0,253959,4,Ramgunapara,রামগুনাপাড়া,11,Village Council,6915
+418.0,254255,1,Ramkrishnapur,রামকৃষ্ণপুর,11,Village Council,6932
+419.0,253842,3,Ramnagar,রামনগর,11,Village Council,6921
+420.0,254139,2,Ramnagar,রামনগর,11,Village Council,261203
+421.0,254235,3,Rampada Para,রামপদপাড়া,11,Village Council,2904
+422.0,253997,2,Ramraibari,রামরাইবাড়ি,11,Village Council,6945
+423.0,254298,2,Ramsankar,রামশংকর,11,Village Council,6942
+424.0,254140,2,Rangmala,রংমালা,11,Village Council,261203
+425.0,273393,1,Ranir Pukur,রানীর পুকুর,11,Village Council,6921
+426.0,273404,3,Rasa Dasarathnagar,রাজা দশরথ নগর,11,Village Council,261195
+427.0,254269,4,Rasaraj Nagar,রসরাজ নগর,11,Village Council,6943
+428.0,254120,1,Ratanmani,রতনমনি,11,Village Council,6930
+429.0,253843,6,Ratannagar,রতননগর,11,Village Council,6921
+430.0,254008,2,Ratanpur,রতনপুর,11,Village Council,6929
+431.0,254270,1,Ratanpur,রতনপুর,11,Village Council,6943
+432.0,273408,2,Rubri Twisa,রুব্রী  ত্বিসা,11,Village Council,6942
+433.0,254102,1,Rupaichari,রুপাইছড়ি,11,Village Council,6931
+434.0,254199,3,Ruprai,রুপরাই,11,Village Council,6934
+435.0,253938,1,Sabual,সাবুল,11,Village Council,6916
+436.0,253948,3,Saidacherra,সাইদাছড়া,11,Village Council,6911
+437.0,273406,2,Saidra,সাইদরা,11,Village Council,261195
+438.0,254121,3,Sakbari,শাকবাড়ি,11,Village Council,6930
+439.0,253920,7,Sakhan Serhmun,শাখান শেরমুন,11,Village Council,6914
+440.0,273423,2,Salkaham,সাল্কাহাম,11,Village Council,261184
+441.0,254243,1,Sambhuram Para,সমভূরামপাড়া,11,Village Council,6944
+442.0,254014,4,Samukcherra,সামুখছড়া,11,Village Council,6923
+443.0,254155,1,Sankhola,সানখোলা,11,Village Council,6942
+444.0,273411,2,Sankumabari,সংকুমাবাড়ি,11,Village Council,6939
+445.0,254194,2,Santinagar,শান্তি নগর,11,Village Council,261195
+446.0,253919,4,Santipur,শান্তি পুর,11,Village Council,261184
+447.0,254156,6,Sarat Chowdhury,সরত চৌধুরী,11,Village Council,6942
+448.0,253977,2,Sarbong,সরবং,11,Village Council,6925
+449.0,254278,2,Sardu Karkari,সর্দু করকরি,11,Village Council,6935
+450.0,253844,5,Sarma,সরমা,11,Village Council,6921
+451.0,253876,3,Setrai,সেতরাই,11,Village Council,6947
+452.0,273375,3,Shantipur,শান্তিপূর,11,Village Council,6915
+453.0,253885,3,Shibbari,শিববাড়ি,11,Village Council,6947
+454.0,253921,4,Shibnagar,শিবনগর,11,Village Council,261184
+455.0,254225,1,Shibnagar,শিবনগর,11,Village Council,6937
+456.0,254009,3,Shibpur,শিবপুর,11,Village Council,6929
+457.0,253886,3,Shyamraicherra,শেমরাইছড়া,11,Village Council,6947
+458.0,253812,2,Siddha Para,সিদ্ধা পাড়া,11,Village Council,261187
+459.0,253813,1,Sikaribari,শিকারি বাড়ি,11,Village Council,6918
+460.0,254295,4,Sikaribari,শিকারি বাড়ি,11,Village Council,6933
+461.0,254103,1,Silachari,শিলাছড়ি,11,Village Council,6946
+462.0,253887,3,Simbuckchak,শিম্বুকচক,11,Village Council,6917
+463.0,254122,1,Sinduk Pathar,সিন্ধুকপাথর,11,Village Council,6930
+464.0,253872,3,Sindu Kumar Para,সিন্ধু কুমার পাড়া,11,Village Council,6919
+465.0,253932,2,Singirbil,সিঙ্গারবিল,11,Village Council,261186
+466.0,254244,2,Sipai Para,সিপাইপারা,11,Village Council,6944
+467.0,273373,1,Solonala,সলোনালা,11,Village Council,6915
+468.0,254076,1,Sonacherra,সোনাছড়া,11,Village Council,6926
+469.0,254010,3,Sonaichari,সোনাই ছড়ি,11,Village Council,6929
+470.0,254104,1,Sonaichari,সোনাই ছড়ি,11,Village Council,6931
+471.0,254157,3,Sonaram,সোনারাম,11,Village Council,6942
+472.0,273374,3,Sonarampara,সণারামপাড়া,11,Village Council,6915
+473.0,254036,3,South Baramura,দক্ষিণ বড়মুরা,11,Village Council,6924
+474.0,254037,2,South Brajendra Nagar,দক্ষিণ ব্রজেন্দ্র নগর,11,Village Council,6924
+475.0,273414,1,South Chailengta,দক্ষিণ  চইলেংটা,11,Village Council,6919
+476.0,254017,3,South Chellagang,দক্ষিণ চেলাগাং,11,Village Council,6927
+477.0,253902,1,South Dasda,দক্ষিণ দশদা,11,Village Council,6914
+478.0,253951,2,South Dhanicherra,দক্ষিণ ধানিছড়া,11,Village Council,6915
+479.0,253851,1,South Dhumacherra,দক্ষিণ ধুমাছড়া,11,Village Council,6919
+480.0,254018,1,South Ekchari,দক্ষিণ একছড়ি,11,Village Council,6927
+481.0,254248,4,South Gakulnagar,দক্ষিণ গকুলনগর,11,Village Council,6932
+482.0,273428,3,South Hadrai,দক্ষিণ হাদ্ড়ায়,11,Village Council,6935
+483.0,253984,1,South Hichacherra,দক্ষিণ হিচাছড়া,11,Village Council,6945
+484.0,253877,2,South Kachucherra,দক্ষিণ কচুছড়া,11,Village Council,6917
+485.0,254030,2,South Karbook,দক্ষিণ করবুক,11,Village Council,6927
+486.0,273368,1,South Lalcherra,দক্ষিণ লাল্চের্রা,11,Village Council,6919
+487.0,253903,3,South Laljuri,দক্ষিণ লালজুরি,11,Village Council,261184
+488.0,253952,3,South Machmara,দক্ষিণ মাছমাড়া,11,Village Council,6915
+489.0,254052,4,South Maharani,দক্ষিণ মহারাণি,11,Village Council,6922
+490.0,254249,4,South Maharanipur,দক্ষিণ মহারাণীপুর,11,Village Council,6932
+491.0,254091,3,South Manubankul,দক্ষিণ মনুবন্কুল,11,Village Council,6931
+492.0,273367,2,South Ompi,দক্ষিণ ওম্পি,11,Village Council,6926
+493.0,254262,1,South Padmabil,দক্ষিণ পদ্মবিল,11,Village Council,6943
+494.0,254274,2,South Pulinpur,দক্ষিণ পুলিনপুর,11,Village Council,6935
+495.0,254182,3,South Radhapur,দক্ষিন রাধাপুর,11,Village Council,261195
+496.0,254263,1,South Ram Chandra Ghat,দক্ষিন রামচন্দ্রঘাট,11,Village Council,6943
+497.0,254301,2,South Ramchandranagar,দক্ষিন রামচন্দ্রনগর,11,Village Council,6937
+498.0,254011,2,South Rani,দক্ষিন রাণি,11,Village Council,6923
+499.0,254063,3,South Sangang,দক্ষিণ সানগাং,11,Village Council,6926
+500.0,254209,2,South Shibnagar,দক্ষিণ শিবনগর,11,Village Council,6937
+501.0,254230,2,South Taibandal,দক্ষিন তৈবান্দাল,11,Village Council,261201
+502.0,253985,2,South Takmachara,দক্ষিণ তকমাছেড়া,11,Village Council,6928
+503.0,254064,2,South Toidu,দক্ষিন তৈদু,11,Village Council,6926
+504.0,253904,3,South Tuisama,দক্ষিণ তুইসামা,11,Village Council,6914
+505.0,253941,5,South Unakoti,দক্ষিন ঊনকুটি,11,Village Council,6911
+506.0,253998,3,Srikantabari,শ্রীকান্ত বাড়ি,11,Village Council,6945
+507.0,254256,1,Sriramkhara,শ্রী রামখাড়া,11,Village Council,6932
+508.0,253888,2,Srirampur,শ্রীরামপুর,11,Village Council,6947
+509.0,253922,3,Subashnagar,সুবাষ নগর,11,Village Council,6914
+510.0,254105,3,Suknachari,সুখনাছড়ি,11,Village Council,6946
+511.0,253999,3,Sulthung Manu,সালথাং মনু,11,Village Council,6928
+512.0,254158,1,Surendranagar,সুরেন্দ্রনগর,11,Village Council,6942
+513.0,254141,3,Sutarmura,সুতারমুরা,11,Village Council,261203
+514.0,254077,1,Taichakma,তাইচাকমা,11,Village Council,6926
+515.0,254078,1,Taidu,তৈদু,11,Village Council,6926
+516.0,254123,3,Taikumba,তৈকুম্ভ,11,Village Council,6930
+517.0,254060,1,Tainani,তৈনানি,11,Village Council,6922
+518.0,254296,2,Takchayabari,টাকছায়াবাড়ি,11,Village Council,6933
+519.0,254000,3,Takmacherra,তাকমাছড়া,11,Village Council,6928
+520.0,253814,3,Tetaiya,তেতৈযা,11,Village Council,261187
+521.0,254300,2,Thaiplok Phang,থাইপ্লক ফাং,11,Village Council,6937
+522.0,253846,5,Thakurcherra,ঠাকুরছড়া,11,Village Council,261188
+523.0,254205,1,Thalibari,থালীবাড়ী,11,Village Council,6941
+524.0,254047,2,Thelakung,থেলাকুং,11,Village Council,6939
+525.0,253898,2,Thumsarai Para,থুমসরাই পাড়া,11,Village Council,6913
+526.0,253939,2,Tlangsang,ত্লানগ্সাং,11,Village Council,6916
+527.0,254079,2,Toidudhepa,তৈদুডেপা,11,Village Council,6926
+528.0,254312,2,Trishna,তৃষ্ণা,11,Village Council,2895
+529.0,253845,4,Tuichakma,তুইচাকমা,11,Village Council,261188
+530.0,254159,1,Tuichamongkarai,তুইছামংগড়াই,11,Village Council,6942
+531.0,254257,5,Tuichingrambari,তুইচিংগ্রামবাড়ি,11,Village Council,6933
+532.0,273424,2,Tuikarma,তুইকার্মা,11,Village Council,6932
+533.0,254001,1,Tuirbhuma Kowaifung,তুইরভূমা  কোয়াইফুং,11,Village Council,6945
+534.0,254271,2,Twihaching Bari,তুইহাচিং বাড়ি,11,Village Council,6943
+535.0,273356,1,Twima,ত্বইমা,11,Village Council,6939
+536.0,273358,1,Twisikambuk,ট্বিসিকাম্বুক,11,Village Council,6939
+537.0,254175,3,Ujan Ganiamara,উজান গনিয়ামারা,11,Village Council,6939
+538.0,253924,3,Ujan Machmara,উজান মাছমারা,11,Village Council,261184
+539.0,254176,2,Ujanpathalia,উজানপাথালিয়া,11,Village Council,6939
+540.0,253847,2,Ultacherra,উল্টাছড়া,11,Village Council,6921
+541.0,253933,2,Unokoti,ঊনকুটি,11,Village Council,2886
+542.0,254272,1,Upendranagar,উপেনদ্রনগর,11,Village Council,6943
+543.0,273419,1,Uttamjoy Para,উত্তমজয় পারা,11,Village Council,6913
+544.0,273391,3,Uttar Gandacherra,উত্তর গন্ডাছড়া,11,Village Council,6921
+545.0,253923,5,Uttar Tuisama,উত্তর তুইসামা,11,Village Council,6914
+546.0,253940,3,Vanghmun,ভাংমুন,11,Village Council,6916
+547.0,254226,3,Vrigudasbari,ভৃগুদাস বাড়ি,11,Village Council,6937
+548.0,254227,2,Wakhinagar,ওয়াখিনগর,11,Village Council,6937
+549.0,254286,1,West Bachaibari,পশ্চিম বাচাইবাড়ি,11,Village Council,6933
+550.0,254219,4,West Barjala,পস্চিম বড়জলা,11,Village Council,6936
+551.0,254261,1,West Belcherra,পশ্চিম বেলছড়া,11,Village Council,6943
+552.0,253915,1,West Bhandarima,পশ্চিম ভান্ডারিমা,11,Village Council,6914
+553.0,254287,2,West Champacherra,পশ্চিম চাম্পাছড়া,11,Village Council,6933
+554.0,254149,2,West Chandpur,পশ্চিম চাঁদপুর,11,Village Council,6942
+555.0,253823,1,West Chawmanu,পশ্চিম ছাওমনু,11,Village Council,6920
+556.0,273378,2,West Damcherra,পশ্চিম দামচেড়া,11,Village Council,6913
+557.0,254188,2,West Debendranagar,পশ্চিম দেবেন্দ্রনগর,11,Village Council,6936
+558.0,253971,3,West Duluma,পশ্চিম ডলুমা,11,Village Council,6925
+559.0,254025,1,West Ekchari,পশ্চিম একছড়ি,11,Village Council,6927
+560.0,253827,2,West Gobindabari,পশ্চিম গোবিন্দবাড়ি,11,Village Council,6920
+561.0,253937,6,West Hmunpui,পশ্চিম হামনপুই,11,Village Council,6916
+562.0,273370,1,West Jamircherra,পশ্চিম জমির্চের্রা,11,Village Council,6919
+563.0,254318,1,West Jarulbachai,পশ্চিম জারুলবাচাই,11,Village Council,2899
+564.0,254189,4,West Jiraniakhola,পস্চিম জিরানিযাখোলা,11,Village Council,261195
+565.0,253866,1,West Karamcherra,পশ্চিম করমছড়া,11,Village Council,6919
+566.0,254288,3,West Karangicherra,পশ্চিম করঙ্গীছড়া,11,Village Council,6933
+567.0,254032,3,West Karbook,পশ্চিম করবুক,11,Village Council,6927
+568.0,253867,2,West Kathalcherra,পশ্চিম কাঁঠালছড়া,11,Village Council,6919
+569.0,254196,4,West Kunjaban,পশ্চিম কুঞ্জবন,11,Village Council,6934
+570.0,253889,2,West Lamboocherra,পশ্চিম লেম্বুছড়া,11,Village Council,6947
+571.0,254289,2,West Laxmicherra,পশ্চিম লক্ষ্মিছড়া,11,Village Council,6933
+572.0,254098,5,West Ludhuya,পশ্চিম লুধুয়া,11,Village Council,6931
+573.0,253828,3,West Malidhar,পশ্চিম মালিধর,11,Village Council,6920
+574.0,254026,3,West Manikya Dewan,পশ্চিম মনিক্য দেওয়ান,11,Village Council,6927
+575.0,253868,2,West Masili,পশ্চিম মাসিলি,11,Village Council,6919
+576.0,253810,1,West Nalicherra,পশ্চিম নালিছড়া,11,Village Council,6918
+577.0,253839,5,West Potacherra,পশ্চিম পুটাছড়া,11,Village Council,261188
+578.0,254190,3,West Radhamohanpur,পস্চিম রাধামোহনপুর,11,Village Council,261194
+579.0,254290,2,West Rajnagar,পশ্চিম রাজনগর,11,Village Council,6933
+580.0,273410,1,West Ratanpur,পশ্চিম রতনপুর,11,Village Council,6939
+581.0,253972,1,West Sarbong,পশ্চিম সারবং,11,Village Council,6925
+582.0,253916,1,West Satnala,পশ্চিম সাতনালা,11,Village Council,6914
+583.0,254074,1,West Taichhlong,পশ্চিম তাইছ্লং,11,Village Council,6926
+584.0,254169,5,West Takerjala,পশ্চিম টাকারজলা,11,Village Council,6939
+585.0,254118,5,West Takkatulshi,পশ্চিম টাক্কা তুলসী,11,Village Council,261204
+586.0,254150,2,West Tamakari,পশ্চিম তমাকারি,11,Village Council,6942
+587.0,254306,1,Zaithang,জাইথাং,11,Village Council,6904
+588.0,6910,1,Tripura Tribal Areas Autonomous District Council,ত্রিপুরা উপজাতীয় এলাকা স্বশাসিত জেলা পরিষদ,13,Tripura tribal areas autonomous District Council,
+589.0,6925,2,Amarpur Bac,অমরপুর বি.এ.সি.,14,Block Advisory Committee,6910
+590.0,6918,2,Ambassa Bac,আমবাসা বি.এ.সি,14,Block Advisory Committee,6910
+591.0,261195,3,Belbari Bac,বেলবাড়ি বি.এ.সি,14,Block Advisory Committee,6910
+592.0,6928,2,Bokafa Bac,বকাফা বি.এ.সি,14,Block Advisory Committee,6910
+593.0,261203,3,Charilam Bac,চড়িলাম বি.এ.সি,14,Block Advisory Committee,6910
+594.0,6920,1,Chawmanu Bac,ছাওমনু বি.এ.সি,14,Block Advisory Committee,6910
+595.0,6913,1,Damcherra Bac,দামছড়া বি.এ.সি,14,Block Advisory Committee,6910
+596.0,6914,2,Dasda Bac,দশদা বি.এ.সি,14,Block Advisory Committee,6910
+597.0,6921,2,Dumburnagar Bac,ডম্বুরনগর বি.এ.সি,14,Block Advisory Committee,6910
+598.0,6947,1,Durga Chowmuhani Bac,দূর্গা চৌমূহনি বি.এ.সি,14,Block Advisory Committee,6910
+599.0,261187,2,Ganganagar Bac,গঙ্গানগর বি.এ.সি,14,Block Advisory Committee,6910
+600.0,6942,1,Hezamara Bac,হেজামারা বি.এ.সি,14,Block Advisory Committee,6910
+601.0,6929,1,Hrishyamukh Bac,ঋষ্যমুখ বি.এ.সি,14,Block Advisory Committee,6910
+602.0,6916,1,Jampui Hills Bac,জম্পুই হিলস বি.এ.সি,14,Block Advisory Committee,6910
+603.0,6939,6,Jampuijala Bac,জম্পুইজলা  বি.এ.সি .,14,Block Advisory Committee,6910
+604.0,6936,2,Jirania Bac,জিরানিয়া বি.এ.সি,14,Block Advisory Committee,6910
+605.0,6945,3,Jolaibari Bac,জোলাইবাড়ি বি.এ.সি,14,Block Advisory Committee,6910
+606.0,6923,3,Kakraban Bac,কাঁকড়াবন বি.এ.সি,14,Block Advisory Committee,6910
+607.0,6934,1,Kalyanpur Bac,কল্যাণপুর বি.এ.সি,14,Block Advisory Committee,6910
+608.0,6927,1,Karbook Bac,করবুক বি.এ.সি,14,Block Advisory Committee,6910
+609.0,6941,1,Kathalia Bac,কাঁঠালিয়া বি.এ.সি,14,Block Advisory Committee,6910
+610.0,6924,2,Killa Bac,কিল্লা বি.এ.সি,14,Block Advisory Committee,6910
+611.0,6911,2,Kumarghat Bac,কুমারঘাট বি.এ.সি,14,Block Advisory Committee,6910
+612.0,261184,3,Laljuri Bac,লালজুড়ি বি.এ.সি,14,Block Advisory Committee,6910
+613.0,6944,1,Lefunga Bac,লেফুঙ্গা বি.এ.সি,14,Block Advisory Committee,6910
+614.0,6937,2,Mandwi Bac,মান্দাই বি.এ.সি,14,Block Advisory Committee,6910
+615.0,6919,1,Manu Bac,মনু বি.এ.সি,14,Block Advisory Committee,6910
+616.0,6922,2,Matabari Bac,মাতাবাড়ী বি.এ.সি,14,Block Advisory Committee,6910
+617.0,261201,4,Mohanbhog Bac,মোহনভোগ বি.এ.সি,14,Block Advisory Committee,6910
+618.0,6932,2,Mungiakami Bac,মুঙ্গিয়াকামী বি.এ.সি,14,Block Advisory Committee,6910
+619.0,6926,1,Ompi Bac,ওম্পি বি.এ.সি,14,Block Advisory Committee,6910
+620.0,6943,1,Padmabil Bac,পদ্মবিল বি.এ.সি,14,Block Advisory Committee,6910
+621.0,6915,2,Pecharthal Bac,পেঁচারথল বি.এ.সি,14,Block Advisory Committee,6910
+622.0,261188,3,Raishyabari Bac,রাইস্যাবাড়ি বি.এ.সি,14,Block Advisory Committee,6910
+623.0,6931,1,Rupaichari Bac,রুপাইছড়ি বি.এ.সি,14,Block Advisory Committee,6910
+624.0,6917,2,Salema Bac,সালেমা বি.এ.সি,14,Block Advisory Committee,6910
+625.0,6930,2,Satchand Bac,সাঁতচাদ বি.এ.সি,14,Block Advisory Committee,6910
+626.0,6946,1,Silachari Bac,শিলাছড়ি বি.এ.সি,14,Block Advisory Committee,6910
+627.0,6935,1,Teliamura Bac,তেলিয়ামুড়া বি.এ.সি,14,Block Advisory Committee,6910
+628.0,6933,1,Tulashikhar Bac,তুলাশিখর বি.এ.সি,14,Block Advisory Committee,6910
+,,,,,,,
+"Nov 15, 2026, 11:38 AM"

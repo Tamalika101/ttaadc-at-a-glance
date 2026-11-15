@@ -1,0 +1,657 @@
+Local Government Directory
+PRI Local bodies of Tripura(State Code:16) State
+""
+S.No.,Localbody Type Code,Localbody Type Name,Localbody Code,Localbody Version,Localbody Name,Localbody Name,Parent Localbody Code
+,,,,,(In English),(In Local)
+1.0,1,Zila Panchayat,239,1,Dhalai,ধলাই,
+2.0,1,Zila Panchayat,588,1,Gomati,গোমতি,
+3.0,1,Zila Panchayat,586,1,Khowai,খোয়াই,
+4.0,1,Zila Panchayat,240,1,North Tripura,উত্তর ত্রিপুরা,
+5.0,1,Zila Panchayat,587,1,Sepahijala,সিপাহীজলা,
+6.0,1,Zila Panchayat,241,1,South Tripura,দক্ষিন ত্রিপুরা,
+7.0,1,Zila Panchayat,589,1,Unakoti,ঊনকোটি,
+8.0,1,Zila Panchayat,242,1,West Tripura,পশ্চিম ত্রিপুরা,
+9.0,2,Block Panchayat,2890,1,Amarpur,অমরপুর,588
+10.0,2,Block Panchayat,2884,2,Ambassa,আমবাসা,239
+11.0,2,Block Panchayat,261196,2,Bamutia,বামুটিয়া,242
+12.0,2,Block Panchayat,261205,2,Bharat Chandra Nagar,ভারতচন্দ্রনগর,241
+13.0,2,Block Panchayat,2897,2,Bishalgarh,বিশালগড়,587
+14.0,2,Block Panchayat,2891,1,Bokafa,বকাফা,241
+15.0,2,Block Panchayat,2898,1,Boxanagar,বক্সনগর,587
+16.0,2,Block Panchayat,261186,2,Chandipur,চন্ডিপুর,589
+17.0,2,Block Panchayat,261202,2,Charilam,চড়িলাম,587
+18.0,2,Block Panchayat,2899,1,Dukli,ডুকলী,242
+19.0,2,Block Panchayat,6905,1,Durga Chowmuhani,দূর্গা চৌমূহনি,239
+20.0,2,Block Panchayat,2886,3,Gournagar,গৌরনগর,589
+21.0,2,Block Panchayat,2892,1,Hrishyamukh,ঋষ্যমুখ,241
+22.0,2,Block Panchayat,2900,2,Jirania,জিরানিয়া,242
+23.0,2,Block Panchayat,6903,1,Jolaibari,জোলাইবাড়ি,241
+24.0,2,Block Panchayat,6904,1,Jubarajnagar,যুবরাজনগর,240
+25.0,2,Block Panchayat,2887,2,Kadamtala,কদমতলা,240
+26.0,2,Block Panchayat,2893,2,Kakraban,কাঁকড়াবন,588
+27.0,2,Block Panchayat,261185,2,Kalacherra,কালাছেড়া,240
+28.0,2,Block Panchayat,2901,1,Kalyanpur,কল্যাণপুর,586
+29.0,2,Block Panchayat,2902,1,Kathalia,কাঁঠালিয়া,587
+30.0,2,Block Panchayat,2903,1,Khowai,খোয়াই,586
+31.0,2,Block Panchayat,2888,2,Kumarghat,কুমারঘাট,589
+32.0,2,Block Panchayat,2894,2,Matabari,মাতাবাড়ী,588
+33.0,2,Block Panchayat,261197,2,Mohanbhog,মোহনভোগ,587
+34.0,2,Block Panchayat,2905,3,Mohanpur,মোহনপুর,242
+35.0,2,Block Panchayat,2904,4,Nalchar,নলছর,587
+36.0,2,Block Panchayat,261194,2,Old Agartala,পুরাতন আগরতলা,242
+37.0,2,Block Panchayat,2889,2,Panisagar,পানিসাগর,240
+38.0,2,Block Panchayat,261204,2,Poangbari,পোআংবাড়ি,241
+39.0,2,Block Panchayat,2895,2,Rajnagar,রাজনগর,241
+40.0,2,Block Panchayat,2885,2,Salema,সালেমা,239
+41.0,2,Block Panchayat,2896,3,Satchand,সাতচাঁদ,241
+42.0,2,Block Panchayat,2906,1,Teliamura,তেলিয়ামুড়া,586
+43.0,2,Block Panchayat,261189,2,Tepania,টেপানিয়া,588
+44.0,3,Gram Panchayat,104102,1,Abhoynagar,অভয়নগর,2892
+45.0,3,Gram Panchayat,104045,1,Agnipasa,অগ্নিপাশা,2889
+46.0,3,Gram Panchayat,261213,1,Algapur,আলগাপুর,261185
+47.0,3,Gram Panchayat,301865,1,Amar Colony Pramodnagar,অমর কলোনী প্রমোদনগর,2901
+48.0,3,Gram Panchayat,104024,3,Ambedkar Nagar,আম্বেদকরনগর,2888
+49.0,3,Gram Panchayat,301846,1,Amgachiya,আমগাছিয়া,2905
+50.0,3,Gram Panchayat,104193,2,Amlighat,আমলিঘাট,261204
+51.0,3,Gram Panchayat,104116,5,Amtali,আমতলী,261189
+52.0,3,Gram Panchayat,104260,2,Anandanagar,আনন্দনগর,2898
+53.0,3,Gram Panchayat,104275,2,Anandanagar,আনন্দনগর,2899
+54.0,3,Gram Panchayat,104400,3,Ananganagar,আনঙ্গনগর,261196
+55.0,3,Gram Panchayat,104224,2,Arabindanagar,অরবিন্দনগর,2897
+56.0,3,Gram Panchayat,104363,3,Aralia,আড়ালিয়া,2898
+57.0,3,Gram Panchayat,261278,1,Aralia,আড়ালিয়া,261202
+58.0,3,Gram Panchayat,104261,2,Ashabari,আশাবাড়ী,2898
+59.0,3,Gram Panchayat,103942,6,Avanga,আভাঙ্গা,2885
+60.0,3,Gram Panchayat,261271,2,Badhyardighi,বৈদ্যেরদিঘি,2897
+61.0,3,Gram Panchayat,104136,3,Bagabasa,বগাবাসা,261189
+62.0,3,Gram Panchayat,104364,3,Bagabasa,বগাবাসা,2904
+63.0,3,Gram Panchayat,261240,2,Bagan,বাগন,2903
+64.0,3,Gram Panchayat,104046,5,Bagbasa,বাগবাশা,6904
+65.0,3,Gram Panchayat,261281,1,Bagber,বাঘবের,2898
+66.0,3,Gram Panchayat,103999,2,Baghan,বাঘান,2887
+67.0,3,Gram Panchayat,261266,3,Bagmara,বাগমারা,2899
+68.0,3,Gram Panchayat,261234,5,Baligaon,বালিগাও,6905
+69.0,3,Gram Panchayat,261267,3,Ballabpur,বল্লবপুর,2899
+70.0,3,Gram Panchayat,103943,6,Bamancherra,বামনছড়া,6905
+71.0,3,Gram Panchayat,104072,1,Bampur,বামপুর,2890
+72.0,3,Gram Panchayat,261279,1,Baniachara,বাণীছড়া,261197
+73.0,3,Gram Panchayat,104137,6,Barabaiya,বারভাইয়া,261189
+74.0,3,Gram Panchayat,104341,1,Barabil,বারাবিল,2903
+75.0,3,Gram Panchayat,103944,2,Baralutma,বড়লুতমা,2885
+76.0,3,Gram Panchayat,261211,1,Bargul,বারগুল,2887
+77.0,3,Gram Panchayat,104225,2,Barjala,বরজলা,261202
+78.0,3,Gram Panchayat,104293,1,Barjala Binapani,বড়জলা বিনাপানি,2900
+79.0,3,Gram Panchayat,104168,4,Barpathari,বড়পাথরী,2895
+80.0,3,Gram Panchayat,104000,3,Baruakandi,বরুয়াকান্দি,261185
+81.0,3,Gram Panchayat,104103,1,Baspadua,বাশঁপাদুয়া,2892
+82.0,3,Gram Panchayat,104326,3,Baspukur,বাসপুকুর,2902
+83.0,3,Gram Panchayat,103935,2,Basudeb Para,বাসুদেবপাড়া,2884
+84.0,3,Gram Panchayat,261297,2,Batisha,বাতিশা,2895
+85.0,3,Gram Panchayat,104194,1,Battala,বটতলা,2896
+86.0,3,Gram Panchayat,104366,3,Bejimara,বেজিমারা,2902
+87.0,3,Gram Panchayat,104276,3,Belabar,বেলাবর,2899
+88.0,3,Gram Panchayat,104082,1,Betaga,বেতাগা,2891
+89.0,3,Gram Panchayat,104025,1,Betcherra,বেতছড়া,2888
+90.0,3,Gram Panchayat,104327,2,Bhabanipur,ভবানীপুর,2902
+91.0,3,Gram Panchayat,103969,1,Bhagaban Nagar,ভগবাননগর,2886
+92.0,3,Gram Panchayat,261253,1,Bhagalpur,ভাগলপুর,261196
+93.0,3,Gram Panchayat,104001,2,Bhagyapur,ভাগ্যপুর,261185
+94.0,3,Gram Panchayat,261272,3,Bhatibari,ভাটিয়াবাড়ি,2897
+95.0,3,Gram Panchayat,261276,1,Bhati Larma,ভাটি লারমা,2897
+96.0,3,Gram Panchayat,104195,1,Bijoynagar,বিজয়নগর,2896
+97.0,3,Gram Panchayat,245506,2,Bijoy Nagar,বিজয় নগর,2905
+98.0,3,Gram Panchayat,104277,1,Bikramnagar,বিক্রমনগর,2899
+99.0,3,Gram Panchayat,103945,3,Bilashcherra,বিলাসছড়া,6905
+100.0,3,Gram Panchayat,103970,2,Bilashpur,বিলাশপুর,261186
+101.0,3,Gram Panchayat,104047,1,Bilthai,বিলথৈ,2889
+102.0,3,Gram Panchayat,103971,2,Birchandra Nagar,বীরচন্দ্র নগর,261186
+103.0,3,Gram Panchayat,104073,2,Birganj,বীরগঞ্জ,2890
+104.0,3,Gram Panchayat,104002,4,Bishnupur,বিষ্ণুপুর,2887
+105.0,3,Gram Panchayat,104226,4,Bishramganj,বিশ্রামগঞ্জ,261202
+106.0,3,Gram Panchayat,104365,4,Bordwal,বড়দোয়াল,2904
+107.0,3,Gram Panchayat,104262,2,Boxanagar,বক্সনগর,2898
+108.0,3,Gram Panchayat,104429,1,Brahmacherra,ব্রম্মছড়া,2906
+109.0,3,Gram Panchayat,104402,3,Brahmakunda,ব্রহ্মকুন্ড,2905
+110.0,3,Gram Panchayat,104227,2,Brajapur,ব্রজপুর,261202
+111.0,3,Gram Panchayat,104196,1,Brajendranagar,ব্রজেন্দ্রনগর,2896
+112.0,3,Gram Panchayat,104003,5,Brajendra Nagar,ব্রজেন্দ্র নগর,2887
+113.0,3,Gram Panchayat,104294,3,Bridhyanagar,বৃদ্ধনগর,261194
+114.0,3,Gram Panchayat,104430,1,Chakmaghat,চাকমাঘাট,2906
+115.0,3,Gram Panchayat,104228,4,Champamura,চম্পামুড়া,2897
+116.0,3,Gram Panchayat,104367,3,Chandanmura,চন্দনমুড়া,2904
+117.0,3,Gram Panchayat,103972,4,Chandipur,চন্ডিপুর,261186
+118.0,3,Gram Panchayat,104236,2,Chandranagar,চন্দ্রনগর,2897
+119.0,3,Gram Panchayat,104004,4,Chandrapur,চন্দ্রপুর,261185
+120.0,3,Gram Panchayat,261285,3,Chandrapur Colony,চন্দ্রপুর কলোনী,2894
+121.0,3,Gram Panchayat,104138,1,Chandrapur R.F,চন্দ্রপুর আর.এফ.,2894
+122.0,3,Gram Panchayat,104139,3,Chandrapur Village,চন্দ্রপুর ভিলেজ,2894
+123.0,3,Gram Panchayat,103946,3,Chankap,চানকাপ,2885
+124.0,3,Gram Panchayat,103973,2,Chantail,ছনতৈল,261186
+125.0,3,Gram Panchayat,261294,2,Charakbai,চরকবাই,6903
+126.0,3,Gram Panchayat,104278,2,Charipara,চারিপাড়া,2899
+127.0,3,Gram Panchayat,261223,2,Charupasa,চারুপাশা,6904
+128.0,3,Gram Panchayat,104140,3,Chattaria,ছাতারিয়া,261189
+129.0,3,Gram Panchayat,104229,3,Chesrimai,ছেচরিমাই,261202
+130.0,3,Gram Panchayat,104169,3,Chittamara,চিত্তামারা,261205
+131.0,3,Gram Panchayat,103947,2,Choto Surma,ছোট সুরমা,6905
+132.0,3,Gram Panchayat,104369,1,Chowmuhani,চৌমুহনী,2904
+133.0,3,Gram Panchayat,261270,5,Chowmuhani Bazar,চৌমুহনি বাজার,2899
+134.0,3,Gram Panchayat,103948,4,Chulubari,চুলুবাড়ী,6905
+135.0,3,Gram Panchayat,104005,1,Churaibari,চুড়াইবাড়ী,2887
+136.0,3,Gram Panchayat,103949,4,Dabbari,ডাববাড়ী,2885
+137.0,3,Gram Panchayat,261242,3,Dakshin Ghilatali,দক্ষিন ঘিলাতলি,2901
+138.0,3,Gram Panchayat,261239,2,Dakshin Singhicharra,দক্ষিন সিঙ্গিছড়া,2903
+139.0,3,Gram Panchayat,261259,3,Dalura,ডলুরা,261194
+140.0,3,Gram Panchayat,104199,1,Damdama,দমদমা,2896
+141.0,3,Gram Panchayat,104074,1,Debbari,দেববাড়ী,2890
+142.0,3,Gram Panchayat,104084,1,Debdaru,দেবদারু,6903
+143.0,3,Gram Panchayat,104403,2,Debendranagar,দেবেন্দ্র নগর,261196
+144.0,3,Gram Panchayat,103950,2,Debicherra,দেবীছড়া,6905
+145.0,3,Gram Panchayat,104106,2,Debipur,দেবীপুর,2892
+146.0,3,Gram Panchayat,104232,2,Debipur,দেবীপুর,2897
+147.0,3,Gram Panchayat,261261,3,Debram Thakur,দেবরাম ঠাকুর,261194
+148.0,3,Gram Panchayat,301845,1,Deenadayal,দীনদয়াল,2897
+149.0,3,Gram Panchayat,104049,2,Deocherra,দেওছড়া,2889
+150.0,3,Gram Panchayat,104050,2,Dewanpasa,দেওয়ানপাশা,6904
+151.0,3,Gram Panchayat,104143,4,Dhajanagar,ধ্বজনগর,261189
+152.0,3,Gram Panchayat,104342,2,Dhalabil,ধলাবিল,2903
+153.0,3,Gram Panchayat,261225,2,Dhaliarkandi,ধালিয়ার্কান্দী,2886
+154.0,3,Gram Panchayat,103974,2,Dhanbilash,ধনবিলাস,261186
+155.0,3,Gram Panchayat,104330,1,Dhanpur,ধনপুর,2902
+156.0,3,Gram Panchayat,104051,4,Dhupirbond,ঢুপিরবন্দ,6904
+157.0,3,Gram Panchayat,261256,3,Dighalia,দিঘালিয়া,261196
+158.0,3,Gram Panchayat,104174,3,Dimatali,ডিমাতলী,2895
+159.0,3,Gram Panchayat,104200,1,Doulbari,দৌলবাড়ী,2896
+160.0,3,Gram Panchayat,104118,4,Dudhpushkarini,দুধপুস্করিনী,2893
+161.0,3,Gram Panchayat,104026,1,Dudpur,দুধপুর,2888
+162.0,3,Gram Panchayat,103951,2,Duraishib Bari,দুরাইশিব বাড়ী,6905
+163.0,3,Gram Panchayat,261262,1,Durga Choudhury,দূর্গা চৌধুরী,261194
+164.0,3,Gram Panchayat,104295,1,Durganagar,দূর্গানগর,2900
+165.0,3,Gram Panchayat,104316,1,Durgapur,দূর্গাপুর,2901
+166.0,3,Gram Panchayat,104371,2,Durgapur,দূর্গাপুর,2898
+167.0,3,Gram Panchayat,261299,4,Durgapur,দুর্গাপুর,2895
+168.0,3,Gram Panchayat,104317,1,Dwarikapur,দ্বারিকাপুর,2901
+169.0,3,Gram Panchayat,104421,6,East Bamutia,পূর্ব বামুটিয়া,261196
+170.0,3,Gram Panchayat,261290,4,East Barabaiya,পূর্ব বারভাইয়া,261189
+171.0,3,Gram Panchayat,104307,1,East Barjala,পূর্ব বড়জলা,2900
+172.0,3,Gram Panchayat,104085,4,East Bokafa,পূর্ব বকাফা,2891
+173.0,3,Gram Panchayat,261263,2,East Champamura,পূর্ব চাম্পামুড়া,261194
+174.0,3,Gram Panchayat,104387,3,East Chandigarh,পূর্ব চন্ডিগড়,261197
+175.0,3,Gram Panchayat,104086,1,East Charakbai,পূর্ব চরকবাই,6903
+176.0,3,Gram Panchayat,261207,2,East Churaibari,পূর্ব চুড়াইবাড়ী,2887
+177.0,3,Gram Panchayat,103967,3,East Dalucherra,পূর্ব ডলুছড়া,2885
+178.0,3,Gram Panchayat,104308,3,East Debendranagar,পূর্ব দেবেন্দ্রনগর,2900
+179.0,3,Gram Panchayat,104159,4,East Dhajanagar,পূর্ব ধ্বজনগর,261189
+180.0,3,Gram Panchayat,104388,1,East Durlovnarayan,পূর্ব দূর্লভনারায়ন,2904
+181.0,3,Gram Panchayat,261208,1,East Fulbari,পূর্ব ফুলবাড়ী,2887
+182.0,3,Gram Panchayat,104253,1,East Gakulnagar,পূর্ব গকুলনগর,2897
+183.0,3,Gram Panchayat,104422,2,East Gandhigram,পূর্ব গান্ধীগ্রাম,261196
+184.0,3,Gram Panchayat,104354,3,East Ganki,পূর্ব গনকী,2903
+185.0,3,Gram Panchayat,104160,2,East Gokulpur,পূর্ব গকুলপুর,261189
+186.0,3,Gram Panchayat,104213,1,East Harina,পূর্ব হরিনা,2896
+187.0,3,Gram Panchayat,104006,3,East Hurua,পূর্ব হুরুয়া,261185
+188.0,3,Gram Panchayat,261217,2,East Jalabasa,পূর্ব জলাবাসা,2889
+189.0,3,Gram Panchayat,104214,1,East Jalefa,পূর্ব জলেফা,2896
+190.0,3,Gram Panchayat,104175,2,East Kalabaria,পূর্ব কালাবাড়িয়া,261205
+191.0,3,Gram Panchayat,104324,2,East Kalyanpur,পূর্ব কল্যানপূর,2901
+192.0,3,Gram Panchayat,104028,1,East Kanchanbari,পূর্ব কাঞ্চনবাড়ী,2888
+193.0,3,Gram Panchayat,104325,4,East Kunjaban,পূর্ব কুঞ্জবন,2901
+194.0,3,Gram Panchayat,261287,2,East Kunjaban,পূর্ব কুঞ্জবন,2894
+195.0,3,Gram Panchayat,103952,3,East Lamboochara,পুর্ব লেম্বুছেড়া,6905
+196.0,3,Gram Panchayat,104130,3,East Mirza,পূর্ব মির্জা,2893
+197.0,3,Gram Panchayat,104390,1,East Nalchar,পূর্ব নলছড়,2904
+198.0,3,Gram Panchayat,103940,1,East Nalicherra,পূর্ব নালিছড়া,2884
+199.0,3,Gram Panchayat,104309,4,East Noagaon,পূর্ব নোয়াগাঁও,261194
+200.0,3,Gram Panchayat,301863,1,East Paharpur,পূর্ব পাহাড়পুর,2902
+201.0,3,Gram Panchayat,104131,1,East Palatana,পূর্ব পালাটানা,2893
+202.0,3,Gram Panchayat,104176,2,East Pipariakhola,পূর্ব পিপারিয়াখোলা,261205
+203.0,3,Gram Panchayat,104355,4,East Ramchandra Ghat,পূর্ব রামচন্দ্র ঘাট,2903
+204.0,3,Gram Panchayat,104027,2,East Ratacherra,পূর্ব রাতাছড়া,2888
+205.0,3,Gram Panchayat,261218,1,East Rowa,পূর্ব রৌয়া,2889
+206.0,3,Gram Panchayat,104061,2,East Tilthai,পূর্ব তিলথাই,6904
+207.0,3,Gram Panchayat,261226,2,East Yeajekhowra,পূর্ব ইয়াজেখাওরা,2886
+208.0,3,Gram Panchayat,104177,1,Ekinpur,একিনপুর,2895
+209.0,3,Gram Panchayat,301853,1,Fakiradola,ফকিরাদোলা,2898
+210.0,3,Gram Panchayat,104404,1,Fatikcherra,ফটিকছড়া,2905
+211.0,3,Gram Panchayat,104029,2,Fatikroy,ফটিকরায়,2888
+212.0,3,Gram Panchayat,104158,2,Fotamati,ফোটাটামাটি,2894
+213.0,3,Gram Panchayat,104007,1,Fulbari,ফুলবাড়ী,2887
+214.0,3,Gram Panchayat,103975,2,Fulbari Kandi,ফুলবাড়ীকান্দি,2886
+215.0,3,Gram Panchayat,104144,1,Fulkumari,ফুলকুমারী,2894
+216.0,3,Gram Panchayat,103976,2,Fultali,ফুলতলী,261186
+217.0,3,Gram Panchayat,261269,2,Fultali,ফুলতলী,2899
+218.0,3,Gram Panchayat,261248,2,Gajaria,গজারিয়া,2905
+219.0,3,Gram Panchayat,104030,1,Gakulnagar,গকুলনগর,2888
+220.0,3,Gram Panchayat,104233,2,Gakulnagar,গকুলনগর,2897
+221.0,3,Gram Panchayat,104145,4,Gakulpur,গকুলপুর,261189
+222.0,3,Gram Panchayat,104432,2,Gamaibari,গামাইবাড়ী,2906
+223.0,3,Gram Panchayat,104119,3,Gangacherra,গঙ্গাছড়া,2893
+224.0,3,Gram Panchayat,104031,1,Ganganagar,গঙ্গানগর,2888
+225.0,3,Gram Panchayat,104087,2,Gardhang,গার্দ্দাং,2891
+226.0,3,Gram Panchayat,104120,4,Garjanmura,গর্জনমুড়া,261189
+227.0,3,Gram Panchayat,104146,1,Garjeecherra,গর্জিছড়া,2894
+228.0,3,Gram Panchayat,104235,2,Gazaria,গজারিয়া,2897
+229.0,3,Gram Panchayat,104237,1,Ghaniamara,ঘনিয়ামারা,2897
+230.0,3,Gram Panchayat,104318,3,Ghilatali,ঘিলাতলি,2901
+231.0,3,Gram Panchayat,104201,1,Goachand Nandigram,গোয়াচাঁদ নন্দীগ্রাম,2896
+232.0,3,Gram Panchayat,104008,2,Gobindapur,গোবিন্দপুর,261185
+233.0,3,Gram Panchayat,104238,1,Golaghati,গোলাঘাটি,2897
+234.0,3,Gram Panchayat,103977,1,Goldharpur,গোলধরপুর,2886
+235.0,3,Gram Panchayat,104239,1,Gopinagar,গোপীনগর,2897
+236.0,3,Gram Panchayat,261298,3,Gouranga Bazar,গৌরনগর বাজার,2895
+237.0,3,Gram Panchayat,103978,1,Gournagar,গৌরনগর,2886
+238.0,3,Gram Panchayat,104343,1,Gournagar,গৌরনগর,2903
+239.0,3,Gram Panchayat,104372,2,Grantali,ঘ্রানতলী,261197
+240.0,3,Gram Panchayat,104121,4,Hadra,হদরা,261189
+241.0,3,Gram Panchayat,261227,2,Halairpar,হালাইরপার,261186
+242.0,3,Gram Panchayat,103953,3,Halhali,হালহালী,6905
+243.0,3,Gram Panchayat,103954,3,Halhuli,হালহুলী,6905
+244.0,3,Gram Panchayat,103955,3,Harerkhola,হারেরখোলা,6905
+245.0,3,Gram Panchayat,104296,2,Harijoy Chowdhury,হরিজয় চৌধুরী,2900
+246.0,3,Gram Panchayat,104405,2,Harinakhola,হরিনাখোলা,2905
+247.0,3,Gram Panchayat,104107,1,Haripur,হরিপুর,2892
+248.0,3,Gram Panchayat,261275,1,Harishnagar,হরিশনগর,2897
+249.0,3,Gram Panchayat,104147,4,Holakhet,হোলাক্ষেত,2894
+250.0,3,Gram Panchayat,104433,1,Howaibari,হাওয়াইবাড়ি,2906
+251.0,3,Gram Panchayat,104108,1,Hrishyamukh,ঋষ্যমুখ,2892
+252.0,3,Gram Panchayat,104052,6,Huplong,হাপলং,6904
+253.0,3,Gram Panchayat,104122,4,Hurijala,হুরিজলা,2893
+254.0,3,Gram Panchayat,301851,1,Hurua Shibnagar,হুরুয়া শিবনগর,261185
+255.0,3,Gram Panchayat,103979,1,Ichabpur,ইছবপুর,2886
+256.0,3,Gram Panchayat,104123,3,Ichacherra,ইচাছড়া,2893
+257.0,3,Gram Panchayat,104009,3,Ichailalcherra,ইচ্ছাইলালছেড়া,261185
+258.0,3,Gram Panchayat,104148,3,Indiranagar,ইন্দিরানগর,2894
+259.0,3,Gram Panchayat,104178,3,Indiranagar,ইন্দিরানগর,2895
+260.0,3,Gram Panchayat,104202,1,Indiranagar,ইন্দিরানগর,2896
+261.0,3,Gram Panchayat,103980,4,Irani,ইরানী,2886
+262.0,3,Gram Panchayat,104282,1,Ishanchandra Nagar,ঈশানচন্দ্র নগর,2899
+263.0,3,Gram Panchayat,104179,2,Ishan Chandranagar,ঈশান চন্দ্রনগর,261205
+264.0,3,Gram Panchayat,104406,1,Ishanpur,ঈশানপুর,2905
+265.0,3,Gram Panchayat,104434,1,Jagannathbari,জগন্নাথবাড়ী,2906
+266.0,3,Gram Panchayat,104032,1,Jagannathpur,জগন্নাথপুর,2888
+267.0,3,Gram Panchayat,104053,2,Jalabasa,জলাবাসা,2889
+268.0,3,Gram Panchayat,103981,1,Jalai,জলাই,2886
+269.0,3,Gram Panchayat,104344,1,Jambura,জাম্বুরা,2903
+270.0,3,Gram Panchayat,104124,4,Jamjuri,জামজুরি,2893
+271.0,3,Gram Panchayat,104283,1,Jarul Bachai,জারুল বাচাই,2899
+272.0,3,Gram Panchayat,103982,2,Jarultali,জারুলতলি,261186
+273.0,3,Gram Panchayat,104180,1,Jashmura,যশমুড়া,2895
+274.0,3,Gram Panchayat,261282,2,Jatrapur,যাত্রাপুর,2902
+275.0,3,Gram Panchayat,104109,1,Jaykatpur,জয়কাতপুর,2892
+276.0,3,Gram Panchayat,104110,1,Jaypur,জয়পুর,2892
+277.0,3,Gram Panchayat,104149,2,Jowalikhamar,জোয়ালীখামার,2894
+278.0,3,Gram Panchayat,261296,3,Joy Chandpur,জয় চাঁদপুর,2895
+279.0,3,Gram Panchayat,104298,1,Joynagar,জয়নগর,2900
+280.0,3,Gram Panchayat,103983,2,Jubarajnagar,যুবরাজনগর,2886
+281.0,3,Gram Panchayat,104054,4,Jubarajnagar,যুবরাজনগর,6904
+282.0,3,Gram Panchayat,104374,2,Jumerdhapa,জুমেরডেপা,2904
+283.0,3,Gram Panchayat,104010,2,Kadamtala,কদমতলা,2887
+284.0,3,Gram Panchayat,104240,1,Kaiyadepha,কৈয়াডেপা,2897
+285.0,3,Gram Panchayat,104125,3,Kakraban,কাকড়াবন,2893
+286.0,3,Gram Panchayat,104203,1,Kalachara,কলাছড়া,2896
+287.0,3,Gram Panchayat,103956,1,Kalachari,কলাছড়ি,6905
+288.0,3,Gram Panchayat,104407,2,Kalacherra,কালাছডা,2905
+289.0,3,Gram Panchayat,104011,1,Kalagangerpar,কালাগাঙ্গেরপাড়,2887
+290.0,3,Gram Panchayat,261280,3,Kalamkhet,কলমখেত,261197
+291.0,3,Gram Panchayat,104204,3,Kalapania,কালাপানিয়া,2896
+292.0,3,Gram Panchayat,261284,5,Kalapania,কালাপানিয়া,2902
+293.0,3,Gram Panchayat,104331,1,Kalikrishna Nagar,কালীকৃষ্ণ নগর,2902
+294.0,3,Gram Panchayat,104408,2,Kalkalia,কলকলিয়া,2905
+295.0,3,Gram Panchayat,104264,1,Kalshimura,কলসীমুড়া,2898
+296.0,3,Gram Panchayat,104319,3,Kalyanpur,কল্যানপূর,2901
+297.0,3,Gram Panchayat,104241,2,Kamalasagar,কমলাসাগর,2897
+298.0,3,Gram Panchayat,104409,1,Kamalghat,কামালঘাট,2905
+299.0,3,Gram Panchayat,104265,2,Kamalnagar,কমলনগর,2898
+300.0,3,Gram Panchayat,104320,1,Kamalnagar,কমলনগর,2901
+301.0,3,Gram Panchayat,104055,2,Kameswar,কামেশ্বর,6904
+302.0,3,Gram Panchayat,104375,2,Kamrangatali,কামরাঙ্গাতলি,261197
+303.0,3,Gram Panchayat,104033,2,Kanchanbari,কাঞ্চনবাড়ী,2888
+304.0,3,Gram Panchayat,104284,1,Kanchanmala,কাঞ্চনমালা,2899
+305.0,3,Gram Panchayat,104088,3,Kanchannagar,কাঞ্চননগর,2891
+306.0,3,Gram Panchayat,104150,4,Karaiyamurra,করিয়ামুড়া,261189
+307.0,3,Gram Panchayat,104242,1,Kasba,কসবা,2897
+308.0,3,Gram Panchayat,104332,1,Kathalia,কাঁঠালিয়া,2902
+309.0,3,Gram Panchayat,261268,5,Kathaltali,কাঠালতলী,2899
+310.0,3,Gram Panchayat,301849,2,Katlamara,কাতলামারা .,2905
+311.0,3,Gram Panchayat,103984,2,Kaulikura,কৌলিকুরা,2886
+312.0,3,Gram Panchayat,103936,3,Kekmachera,কেকমাছড়া,2884
+313.0,3,Gram Panchayat,104376,2,Kemtali,কেমতলী,2904
+314.0,3,Gram Panchayat,104377,1,Khas Chowmuhani,খাস চৌমুহনী,2904
+315.0,3,Gram Panchayat,104435,2,Khashia Mangal,খাশিয়া মঙ্গল,2906
+316.0,3,Gram Panchayat,104378,4,Khedabari,খেদাবাড়ী,2904
+317.0,3,Gram Panchayat,104151,1,Khilpara,খিলপাড়া,2894
+318.0,3,Gram Panchayat,103985,4,Khowrabil,খাওড়াবিল,2886
+319.0,3,Gram Panchayat,104299,5,Kobrakhamar,কোবরাখামার,2900
+320.0,3,Gram Panchayat,104243,3,Konaban,কোনাবন,2897
+321.0,3,Gram Panchayat,104244,1,Krishna Kishorenagar,কৃষ্ণ কিশোরনগর,2897
+322.0,3,Gram Panchayat,104034,1,Krishnanagar,কৃষ্ণনগর,2888
+323.0,3,Gram Panchayat,104111,1,Krishnanagar,কৃষ্ণনগর,2892
+324.0,3,Gram Panchayat,104205,2,Krishnanagar,কৃষ্ণনগর,261204
+325.0,3,Gram Panchayat,104300,1,Krishnanagar,কৃষ্ণনগর,2900
+326.0,3,Gram Panchayat,301852,1,Krishnapur,কৃষ্ণপুর,6904
+327.0,3,Gram Panchayat,103957,2,Kuchainala,কুচাইনালা,6905
+328.0,3,Gram Panchayat,103937,1,Kulai,কুলাই,2884
+329.0,3,Gram Panchayat,104266,1,Kulubari,কুলুবাড়ী,2898
+330.0,3,Gram Panchayat,104379,1,Kumariakucha,কুমারিয়াকুচা,2904
+331.0,3,Gram Panchayat,104152,1,Kunjaban,কুঞ্জবন,2894
+332.0,3,Gram Panchayat,104012,1,Kurti,কুর্তি,2887
+333.0,3,Gram Panchayat,104126,2,Kushamara,কুশামারা,2893
+334.0,3,Gram Panchayat,104056,2,Lalcherra,লালছড়া,6904
+335.0,3,Gram Panchayat,104035,1,Laljuri,লালজুড়ি,2888
+336.0,3,Gram Panchayat,104245,3,Lalsingmura,লালশিংমুড়া,261202
+337.0,3,Gram Panchayat,103986,4,Latiapura,লাটিয়াপুড়া,2886
+338.0,3,Gram Panchayat,104089,1,Latua Tilla,লাটুয়াটিল্লা,6903
+339.0,3,Gram Panchayat,104380,1,Laxmandhepa,লক্ষনডেপা,2904
+340.0,3,Gram Panchayat,104246,1,Laxmibil,লক্ষীবিল,2897
+341.0,3,Gram Panchayat,104410,2,Laxmilunga,লক্ষ্মিলুঙ্গা,261196
+342.0,3,Gram Panchayat,104013,3,Laxminagar,লক্ষ্মিনগর,261185
+343.0,3,Gram Panchayat,104345,2,Laxmi Narayanpur,লক্ষ্মী নারায়নপুর,2903
+344.0,3,Gram Panchayat,104153,1,Laxmipati,লক্ষীপতি,2894
+345.0,3,Gram Panchayat,103987,3,Laxmipur,লক্ষীপুর,2886
+346.0,3,Gram Panchayat,104181,3,Laxmipur,লক্ষ্মিপুর,261205
+347.0,3,Gram Panchayat,104436,1,Laxmipur,লক্ষীপুর,2906
+348.0,3,Gram Panchayat,104411,2,Lembucherra,লেম্বুছেড়া,261196
+349.0,3,Gram Panchayat,261274,1,Lembutali,লেম্বুতলি,2897
+350.0,3,Gram Panchayat,104090,1,Lowgang,লাউগাং,2891
+351.0,3,Gram Panchayat,104206,2,Madhab Nagar,মাধবনগর,261204
+352.0,3,Gram Panchayat,104286,1,Madhuban,মধুবন,2899
+353.0,3,Gram Panchayat,104247,3,Madhupur,মধুপুর,2897
+354.0,3,Gram Panchayat,104267,2,Madhya Boxanagar,মধ্য বক্সনগর,2898
+355.0,3,Gram Panchayat,261277,1,Madhya Brajapur,মধ্য ব্রজপুর,261202
+356.0,3,Gram Panchayat,261260,1,Madhya Champamura,মধ্য চাম্পামুড়া,261194
+357.0,3,Gram Panchayat,104301,1,Madhya Debendranagar,মধ্য দেবেন্দ্রনগর,2900
+358.0,3,Gram Panchayat,104346,1,Madhya Ganki,মধ্য গনকী,2903
+359.0,3,Gram Panchayat,301858,1,Madhya Kalyanpur,মধ্য কল্যাণপূর,2901
+360.0,3,Gram Panchayat,104437,1,Madhya Krishnapur,মধ্য কৃষ্ণপুর,2906
+361.0,3,Gram Panchayat,104248,1,Madhya Laxmibil,মধ্য লক্ষীবিল,2897
+362.0,3,Gram Panchayat,104091,2,Madhya Pillak,মধ্য পিলাক,6903
+363.0,3,Gram Panchayat,104347,2,Madhya Singicherra,মধ্য সিঙ্গিছড়া,2903
+364.0,3,Gram Panchayat,104207,3,Magurcherra,মাগুড়ছড়া,2896
+365.0,3,Gram Panchayat,261224,2,Maguruli,মুগুরুলি,2886
+366.0,3,Gram Panchayat,103958,2,Mahabir,মহাবীর,6905
+367.0,3,Gram Panchayat,104154,4,Maharani,মহারানী,2894
+368.0,3,Gram Panchayat,104287,1,Mahishkhola,মহেশখলা,2899
+369.0,3,Gram Panchayat,104438,1,Maiganga,মাইগঙ্গা,2906
+370.0,3,Gram Panchayat,104075,1,Mailak,মৈলাক,2890
+371.0,3,Gram Panchayat,104268,1,Mainama,ময়নামা,2898
+372.0,3,Gram Panchayat,104302,1,Majlishpur,মজলিশপুর,2900
+373.0,3,Gram Panchayat,104288,2,Malaynagar,মলয়নগর,2899
+374.0,3,Gram Panchayat,261222,2,Mangalkhali,মঙ্গলখালি,6904
+375.0,3,Gram Panchayat,103959,2,Manikbhandar,মানিকভান্ডার,6905
+376.0,3,Gram Panchayat,104269,4,Manikyanagar,মানিক্যনগর,2898
+377.0,3,Gram Panchayat,104412,2,Mantala,মনতলা,2905
+378.0,3,Gram Panchayat,104208,1,Manu Bazar,মনু বাজার,2896
+379.0,3,Gram Panchayat,103988,4,Manu Valley,মনু ভ্যালি,261186
+380.0,3,Gram Panchayat,103960,2,Maracherra,মরাছড়া,6905
+381.0,3,Gram Panchayat,104036,1,Masauli,মাসুলি,2888
+382.0,3,Gram Panchayat,104155,1,Matabari,মাতাবাড়ী,2894
+383.0,3,Gram Panchayat,104112,2,Matai,মতাই,2892
+384.0,3,Gram Panchayat,104270,2,Matinagar,মতিনগর,2898
+385.0,3,Gram Panchayat,103961,3,Mayachari,মায়াছড়ি,6905
+386.0,3,Gram Panchayat,103962,2,Mechuria,মেছুরিয়া,2885
+387.0,3,Gram Panchayat,104303,2,Meghlipara,মেঘলিপারা,261194
+388.0,3,Gram Panchayat,104127,4,Mirza,মির্জা,2893
+389.0,3,Gram Panchayat,104381,3,Mohanbhog,মোহনভোগ,261197
+390.0,3,Gram Panchayat,103963,2,Mohanpur,মোহনপুর,6905
+391.0,3,Gram Panchayat,104439,1,Moharcherra,মোহরছড়া,2906
+392.0,3,Gram Panchayat,104414,2,Mohinipur,মোহিনীপূর,2905
+393.0,3,Gram Panchayat,104333,2,Monarchak,মনারচক,2902
+394.0,3,Gram Panchayat,104092,1,Muhuripur,মুহুরীপুর,6903
+395.0,3,Gram Panchayat,104093,1,Muhuripur R.F.,মুহুরীপুর আর. এফ,6903
+396.0,3,Gram Panchayat,104128,1,Murapara,মুড়াপাড়া,2893
+397.0,3,Gram Panchayat,103989,3,Murticherra,মূর্তি ছড়া,261186
+398.0,3,Gram Panchayat,104382,3,Nabadwipchandranagar,নবদ্বীপচন্দ্রনগর,2898
+399.0,3,Gram Panchayat,104209,3,Nabagram,নবগ্রাম,2896
+400.0,3,Gram Panchayat,261255,1,Nabagram,নবগ্রাম,261196
+401.0,3,Gram Panchayat,104249,1,Nabinagar,নবীনগর,2897
+402.0,3,Gram Panchayat,261214,3,Nadiapur Sanichara,নদিয়াপুর শনিছড়া,261185
+403.0,3,Gram Panchayat,261302,1,Nalua,নলুয়া,2892
+404.0,3,Gram Panchayat,104415,2,Narshingarh,নরসিংগড়,261196
+405.0,3,Gram Panchayat,104416,5,Natunnagar,নতুননগর,261196
+406.0,3,Gram Panchayat,301864,2,Nayanjala,নয়নজলা,2898
+407.0,3,Gram Panchayat,104250,2,Nehal Chandranagar,নেহাল চন্দ্রনগর,2897
+408.0,3,Gram Panchayat,261301,2,Netaji Subhash Chandra Nagar,নেতাজি সুভাষ চন্দ্র নগর,261205
+409.0,3,Gram Panchayat,104334,3,Nidaya,নিদয়া,2902
+410.0,3,Gram Panchayat,104182,4,Niharnagar,নিহারনগর,2895
+411.0,3,Gram Panchayat,104335,2,Nirvoypur,নির্ভয়পুর,2902
+412.0,3,Gram Panchayat,103964,2,Noagaon,নোয়াগাঁও,6905
+413.0,3,Gram Panchayat,103990,3,Noorpur,নূরপুর,2886
+414.0,3,Gram Panchayat,261254,1,North Bamutia,উত্তর বামুটিয়া,261196
+415.0,3,Gram Panchayat,301847,1,North Belabar,উত্তর বেলাবর,2899
+416.0,3,Gram Panchayat,104189,4,North Bharat Chandra Nagar,উত্তর ভারত চন্দ্র নগর,261205
+417.0,3,Gram Panchayat,104222,1,North Bhuratali,উত্তর ভুরাতলি,2896
+418.0,3,Gram Panchayat,104258,2,North Brajapur,উত্তর ব্রজপুর,261202
+419.0,3,Gram Panchayat,104313,2,North Champamura,উত্তর চাম্পামুড়া,261194
+420.0,3,Gram Panchayat,104165,1,North Chandrapur,উত্তর চন্দ্রপুর,2894
+421.0,3,Gram Panchayat,104259,2,North Charilam,উত্তর চড়িলাম,261202
+422.0,3,Gram Panchayat,104360,1,North Chebri,উওর চেবরী,2903
+423.0,3,Gram Panchayat,261216,1,North Deocherra,উত্তর দেওছড়া,2889
+424.0,3,Gram Panchayat,104023,1,North Fulbari,উত্তর ফুলবাড়ী,2887
+425.0,3,Gram Panchayat,261257,1,North Gandhigram,উত্তর গান্ধীগ্রাম,261196
+426.0,3,Gram Panchayat,104057,2,North Ganganagar,উত্তর গঙ্গানগর,6904
+427.0,3,Gram Panchayat,261235,4,North Halhali,উত্তর হালহালী,6905
+428.0,3,Gram Panchayat,104014,3,North Hurua,উত্তর হুরুয়া,261185
+429.0,3,Gram Panchayat,104099,3,North Jolaibari,উত্তর জোলাইবাড়ী,6903
+430.0,3,Gram Panchayat,103965,2,North Kachucherra,উত্তর কচুছড়া,2885
+431.0,3,Gram Panchayat,104166,3,North Kalaban,উত্তর কালাবন,2894
+432.0,3,Gram Panchayat,104273,5,North Kalamchoura,উত্তর কলমচৌড়া,2898
+433.0,3,Gram Panchayat,261243,1,North Kamalnagar,উত্তর কমলনগর,2901
+434.0,3,Gram Panchayat,104444,1,North Krishnapur,উত্তর কৃষ্ণপুর,2906
+435.0,3,Gram Panchayat,261251,1,North Laxmilunga,উত্তর লক্ষ্মিলুঙ্গা,261196
+436.0,3,Gram Panchayat,261252,3,North Lembucherra,উত্তর লেম্বুছেড়া,261196
+437.0,3,Gram Panchayat,104167,1,North Maharani,উত্তর মহারানী,2894
+438.0,3,Gram Panchayat,104339,2,North Maheshpur,উত্তর মহেশপুর,2902
+439.0,3,Gram Panchayat,104314,1,North Majlishpur,উত্তর মজলিশপুর,2900
+440.0,3,Gram Panchayat,103941,1,North Nalicherra,উত্তর নালিছড়া,2884
+441.0,3,Gram Panchayat,104070,3,North Padmabil,উত্তর পদ্মবিল,2889
+442.0,3,Gram Panchayat,104340,2,North Paharpur,উত্তর পাহাড়পুর,2902
+443.0,3,Gram Panchayat,261300,3,North Rangamura,উত্তর রাঙ্গামুড়া,2895
+444.0,3,Gram Panchayat,104113,1,North Sarashima,উত্তর সাড়াসীমা,2892
+445.0,3,Gram Panchayat,261293,4,North Shalgarah,উত্তর শালগড়,261189
+446.0,3,Gram Panchayat,104115,1,North Sonaichari,উত্তর সোনাইছড়ি,2892
+447.0,3,Gram Panchayat,104190,5,North Srirampur,উত্তর শ্রীরামপুর,2895
+448.0,3,Gram Panchayat,104135,3,North Tulamura,উত্তর তুলামুড়া,2893
+449.0,3,Gram Panchayat,104348,3,Paharmura,পাহাড়মুরা,2903
+450.0,3,Gram Panchayat,104183,3,Paikhola,পাইখোলা,261205
+451.0,3,Gram Panchayat,104129,3,Palatana,পালাটানা,2893
+452.0,3,Gram Panchayat,301857,1,Pallan Para,পল্লন পাড়া,2899
+453.0,3,Gram Panchayat,104289,1,Pandabpur,পান্ডবপুর,2899
+454.0,3,Gram Panchayat,104349,2,Paschim Chebri,পশ্চিম চেবরী,2903
+455.0,3,Gram Panchayat,261291,2,Paschim Dhajanagar,পশ্চিম ধ্বজনগর,261189
+456.0,3,Gram Panchayat,104321,2,Paschim Dwarikapur,পশ্চিম দ্বারিকাপুর,2901
+457.0,3,Gram Panchayat,104350,2,Paschim Ganki,পশ্চিম গনকী,2903
+458.0,3,Gram Panchayat,104351,2,Paschim Singicherra,পশ্চিম সিঙ্গিছড়া,2903
+459.0,3,Gram Panchayat,104251,1,Pathalia,পাথালিয়া,2897
+460.0,3,Gram Panchayat,261273,4,Pathariadwar,পাথারিয়াদ্বার,2897
+461.0,3,Gram Panchayat,104420,3,Patunagar,পটুনগর,261196
+462.0,3,Gram Panchayat,104060,1,Pekucherra,পেকুছড়া,2889
+463.0,3,Gram Panchayat,104157,2,Pitra,পিত্রা,2894
+464.0,3,Gram Panchayat,104386,1,Poangbari,পোয়াংবাড়ী,2904
+465.0,3,Gram Panchayat,104234,1,Prabhurampur,প্রভুরামপুর,2897
+466.0,3,Gram Panchayat,104015,4,Pratyekroy,প্রত্যেকরয়,261185
+467.0,3,Gram Panchayat,104323,5,Promodnagar,প্রমোদনগর,2901
+468.0,3,Gram Panchayat,104252,1,Purathal Rajnagar,পুরাথল রাজনগর,2897
+469.0,3,Gram Panchayat,104353,2,Purba Chebri,পূর্ব চেবরী,2903
+470.0,3,Gram Panchayat,104078,2,Purba Rangamati,পূর্ব রাঙ্গামাটি,2890
+471.0,3,Gram Panchayat,261241,2,Purba Sonatala,পূর্ব সোনাতলা,2903
+472.0,3,Gram Panchayat,104271,3,Putia,পুটিয়া,2898
+473.0,3,Gram Panchayat,104336,1,Rabindranagar,রবীন্দ্রনগর,2902
+474.0,3,Gram Panchayat,104096,4,Radha Kishore Ganj,রাধাকিশোরগঞ্জ,2891
+475.0,3,Gram Panchayat,104310,3,Radha Kishorenagar,রাধা কিশোর নগর,261194
+476.0,3,Gram Panchayat,104037,4,Radhanagar,রাধানগর,2888
+477.0,3,Gram Panchayat,104185,6,Radhanagar,রাধানগর,2895
+478.0,3,Gram Panchayat,104254,1,Radhanagar,রাধানগর,2897
+479.0,3,Gram Panchayat,104062,2,Radhapur,রাধাপুর,6904
+480.0,3,Gram Panchayat,104016,2,Raghna,রাঘ্না,261185
+481.0,3,Gram Panchayat,104255,5,Ragunathpur,রঘুনাথপুর,2897
+482.0,3,Gram Panchayat,104272,2,Rahimpur,রহিমপুর,2898
+483.0,3,Gram Panchayat,104215,1,Rajibnagar,রাজীবনগর,2896
+484.0,3,Gram Panchayat,104391,1,Rajibnagar,রাজীবনগর,2904
+485.0,3,Gram Panchayat,104063,5,Rajnagar,রাজনগর,6904
+486.0,3,Gram Panchayat,104161,3,Rajnagar,রাজনগর,2894
+487.0,3,Gram Panchayat,104186,3,Rajnagar,রাজনগর,2895
+488.0,3,Gram Panchayat,104216,4,Rajnagar,রাজনগর,261204
+489.0,3,Gram Panchayat,261210,1,Rajnagar,রাজনগর,2887
+490.0,3,Gram Panchayat,261229,1,Rajnagar,রাজনগর,2888
+491.0,3,Gram Panchayat,104256,2,Ramcherra,রামছেড়া,261202
+492.0,3,Gram Panchayat,104064,1,Ramnagar,রামনগর,2889
+493.0,3,Gram Panchayat,261249,2,Rangachara,রাঙ্গাছড়া,2905
+494.0,3,Gram Panchayat,104079,1,Rangamati,রাঙ্গামাটি,2890
+495.0,3,Gram Panchayat,104392,4,Rangamati,রাঙ্গামাটি,2904
+496.0,3,Gram Panchayat,261289,2,Rangamati,রাঙামাটি,261189
+497.0,3,Gram Panchayat,104187,3,Rangamura,রাঙ্গামুড়া,2895
+498.0,3,Gram Panchayat,103991,3,Rangauti,রানগুটি,2886
+499.0,3,Gram Panchayat,104080,1,Rangkang,রাংকাং,2890
+500.0,3,Gram Panchayat,103992,2,Rangrung,রাংরুং,261186
+501.0,3,Gram Panchayat,104132,2,Rani,রানী,2893
+502.0,3,Gram Panchayat,104017,3,Ranibari,রানীবাড়ী,2887
+503.0,3,Gram Panchayat,261231,1,Ratiabari,রাতিয়াবাড়ি,2888
+504.0,3,Gram Panchayat,104257,1,Routhkhala,রাউথখলা,2897
+505.0,3,Gram Panchayat,104065,2,Rowa,রৌয়া,2889
+506.0,3,Gram Panchayat,104442,2,Rupa Cherra,রূপা ছড়া,2906
+507.0,3,Gram Panchayat,104311,1,Sachindranagar,শচীন্দ্রনগর,2900
+508.0,3,Gram Panchayat,104038,1,Saidarpar,সাইদারপার,2888
+509.0,3,Gram Panchayat,261212,1,Sakaibari,শাকাইবাড়ী,261185
+510.0,3,Gram Panchayat,103968,2,Salema,সালেমা,2885
+511.0,3,Gram Panchayat,104356,2,Samatal Padmabil,সমতল পদ্মবিল,2903
+512.0,3,Gram Panchayat,103993,2,Samrurpar,সামরুর পার,261186
+513.0,3,Gram Panchayat,104018,3,Sanicherra,শনিছেড়া,261185
+514.0,3,Gram Panchayat,104357,1,Santinagar,শান্তিনগর,2903
+515.0,3,Gram Panchayat,261233,3,Santirbazar,শান্তিরবাজর,2885
+516.0,3,Gram Panchayat,261206,6,Sarala,সরলা,2887
+517.0,3,Gram Panchayat,104114,1,Sarashima,সাড়াসীমা,2892
+518.0,3,Gram Panchayat,104019,2,Saraspur,সরসপুর,2887
+519.0,3,Gram Panchayat,104217,1,Satchand,সাঁতচাদ,2896
+520.0,3,Gram Panchayat,104423,2,Satdubia,সাতডুবিয়া,2905
+521.0,3,Gram Panchayat,104020,2,Satsangam,সাতসঙ্গম,2887
+522.0,3,Gram Panchayat,261265,2,Sekerkote,সেকেরকোট,2899
+523.0,3,Gram Panchayat,104358,2,Sepaihour,সিপাইহাওর,2903
+524.0,3,Gram Panchayat,104162,5,Shalgarah,শালগড়,261189
+525.0,3,Gram Panchayat,301855,1,Shantipara,শান্তিপাড়া,261194
+526.0,3,Gram Panchayat,104394,2,Shibnagar,শিবনগার,2904
+527.0,3,Gram Panchayat,104133,1,Shilghati,শিলঘাটি,2893
+528.0,3,Gram Panchayat,301856,1,Siddhinagar,সিদ্ধিনগর,2895
+529.0,3,Gram Panchayat,261245,4,Simna,সিমনা,2905
+530.0,3,Gram Panchayat,104163,3,Simsima,সিমসিমা,2894
+531.0,3,Gram Panchayat,104424,3,Singarbill,সিঙ্গারবিল,261196
+532.0,3,Gram Panchayat,261232,2,Singinala,সিন্গিনালা,2885
+533.0,3,Gram Panchayat,104039,2,Sonaimuri,সোনাইমুড়ি,2888
+534.0,3,Gram Panchayat,104337,1,Sonapur,সোনাপুর,2902
+535.0,3,Gram Panchayat,104359,1,Sonatala,সোনাতলা,2903
+536.0,3,Gram Panchayat,103994,2,Sorojini,সরোজিনী,261186
+537.0,3,Gram Panchayat,104141,2,South Bagma,দক্ষিণ বাগমা,261189
+538.0,3,Gram Panchayat,104170,2,South Bharat Chandra Nagar,দক্ষিণ ভারত চন্দ্র নগর,261205
+539.0,3,Gram Panchayat,104197,1,South Bhuratali,দক্ষিন ভুরাতলি,2896
+540.0,3,Gram Panchayat,104230,3,South Charilam,দক্ষিণ চড়িলাম,261202
+541.0,3,Gram Panchayat,104315,1,South Durgapur,দক্ষিন দূর্গাপুর,2901
+542.0,3,Gram Panchayat,104066,2,South Ganganagar,দক্ষিন গঙ্গানগর,6904
+543.0,3,Gram Panchayat,104021,2,South Hurua,দক্ষিণ হুরুয়া,261185
+544.0,3,Gram Panchayat,104083,1,South Jolaibari,দক্ষিণ জোলাইবাড়ী,6903
+545.0,3,Gram Panchayat,261209,1,South Kadamtala,দক্ষিন কদমতলা,2887
+546.0,3,Gram Panchayat,261236,2,South Kalachari,দক্ষিণ কালাছরি,6905
+547.0,3,Gram Panchayat,104263,3,South Kalamchora,দক্ষিন কলমচৌড়া,2898
+548.0,3,Gram Panchayat,104431,1,South Krishnapur,দক্ষিন কৃষ্ণপুর,2906
+549.0,3,Gram Panchayat,104231,2,South Madhupur,দক্ষিন মধুপুর,2897
+550.0,3,Gram Panchayat,104328,4,South Maheshpur,দক্ষিন মহেশপুর,2902
+551.0,3,Gram Panchayat,261238,2,South Manikbhandar,দক্ষিণ মানিকভান্ডার,6905
+552.0,3,Gram Panchayat,261288,1,South Matabari,দক্ষিন মাতাবাড়ী,2894
+553.0,3,Gram Panchayat,104104,3,South Matai,দক্ষিন মতাই,2892
+554.0,3,Gram Panchayat,104117,3,South Mirza,দক্ষিন মির্জা,2893
+555.0,3,Gram Panchayat,104142,3,South Murapara,দক্ষিন মুড়াপাড়া,2894
+556.0,3,Gram Panchayat,104370,2,South Nalchar,দক্ষিন নলছড়,2904
+557.0,3,Gram Panchayat,301848,1,South Nidaya,দক্ষিণ নিদয়া,2902
+558.0,3,Gram Panchayat,104048,1,South Padmabill,দক্ষিন পদ্মবিল,2889
+559.0,3,Gram Panchayat,104329,2,South Paharpur,দক্ষিন পাহাড়পুর,2902
+560.0,3,Gram Panchayat,261220,1,South Panisagar,দক্ষিন পানিসাগর,2889
+561.0,3,Gram Panchayat,104171,3,South Radhanagar,দক্ষিন রাধানগর,2895
+562.0,3,Gram Panchayat,104172,3,South Rajnagar,দক্ষিন রাজনগর,2895
+563.0,3,Gram Panchayat,104105,1,South Sonaichari,দক্ষিন সোনাইছডি,2892
+564.0,3,Gram Panchayat,104198,2,South Srinagar,দক্ষিণ শ্রীনগর,261204
+565.0,3,Gram Panchayat,104173,2,South Srirampur,দক্ষিন শ্রীরামপুর,2895
+566.0,3,Gram Panchayat,104425,1,South Taranagar,দক্ষিন তারানগর,2905
+567.0,3,Gram Panchayat,104338,1,Sovapur,শোভাপুর,2902
+568.0,3,Gram Panchayat,261283,1,Srimantapur,শ্রীমন্তপূর,2902
+569.0,3,Gram Panchayat,104218,2,Srinagar,শ্রীনগর,261204
+570.0,3,Gram Panchayat,104290,2,Srinagar,শ্রীনগর,2899
+571.0,3,Gram Panchayat,103995,1,Srinathpur,শ্রীনাথপুর,2886
+572.0,3,Gram Panchayat,104067,2,Sripur,শ্রীপুর,6904
+573.0,3,Gram Panchayat,301843,1,Sripur,শ্রীপুর,2888
+574.0,3,Gram Panchayat,103996,3,Srirampur,শ্রী রামপুর,261186
+575.0,3,Gram Panchayat,104097,4,Subash Colony,সুভাষ কলোনী,2891
+576.0,3,Gram Panchayat,104219,3,Subashnagar,সুভাষ নগর,261204
+577.0,3,Gram Panchayat,104040,2,Sukanta Nagar,সুকান্ত নগর,2888
+578.0,3,Gram Panchayat,104188,2,Sukanta Nagar,সুকান্ত নগর,261205
+579.0,3,Gram Panchayat,104220,1,Sukanta Palli,সুকান্তপল্লী,2896
+580.0,3,Gram Panchayat,104291,2,Surjyamani Nagar,সূর্য্যমনিনগর,2899
+581.0,3,Gram Panchayat,261295,3,Swadeshnagar,স্বদেশনগর,6903
+582.0,3,Gram Panchayat,104395,1,Taijiling,তৈজিলিং,2904
+583.0,3,Gram Panchayat,104396,2,Taksa Para,তক্ছাপাড়া,2904
+584.0,3,Gram Panchayat,261250,5,Taltala,তালতলা,261196
+585.0,3,Gram Panchayat,104068,2,Tangibari,টংগীবাড়ী,6904
+586.0,3,Gram Panchayat,104022,2,Tarakpur,তারকপুর,2887
+587.0,3,Gram Panchayat,104041,2,Taraninagar,তরনীনগর,2888
+588.0,3,Gram Panchayat,104397,4,Telkajla,তেলকাজলা,261197
+589.0,3,Gram Panchayat,104164,4,Tepania,টেপানিয়া,261189
+590.0,3,Gram Panchayat,104221,1,Thaibung,তৈকুম্ভ,2896
+591.0,3,Gram Panchayat,104081,1,Thakchara,থাকছড়া,2890
+592.0,3,Gram Panchayat,104098,1,Thakur Cherra,ঠাকুরছড়া,6903
+593.0,3,Gram Panchayat,103997,3,Tilagaon,টিলাগাঁও,2886
+594.0,3,Gram Panchayat,104443,4,Tuichindrai,তুইচিন্দ্রাই,2906
+595.0,3,Gram Panchayat,104312,2,Tulakona,তুলাকুনা,261194
+596.0,3,Gram Panchayat,104134,1,Tulamura,তুলামুড়া,2893
+597.0,3,Gram Panchayat,104042,1,Ujandudpur,উজানদুধপুর,2888
+598.0,3,Gram Panchayat,104069,3,Uptakhali,উপ্তাখালি,6904
+599.0,3,Gram Panchayat,104398,4,Urmai,উরমাই,261197
+600.0,3,Gram Panchayat,104361,2,Uttar Ramchandraghat,উওর রামচন্দ্রঘাট,2903
+601.0,3,Gram Panchayat,104362,4,Uttar Singhicharra,উওর সিঙ্গিছড়া,2903
+602.0,3,Gram Panchayat,104274,2,Valuarchar,ভেলুয়ারচর,2898
+603.0,3,Gram Panchayat,104428,2,Vidyasagar,বিদ্যাসাগর,2905
+604.0,3,Gram Panchayat,261228,2,Vidyasagar,বিদ্যাসাগর,2888
+605.0,3,Gram Panchayat,261244,1,Vivekananda Nagar,বিবেকানন্দ নগর,2906
+606.0,3,Gram Panchayat,104223,1,Vivekananda Palli,বিবেকানন্দ পল্লী,2896
+607.0,3,Gram Panchayat,261264,2,West Anandanagar,পশ্চিম আনন্দনগর,2899
+608.0,3,Gram Panchayat,103938,4,West Balaram,পশ্চিম বলরাম,2884
+609.0,3,Gram Panchayat,104417,4,West Bamutia,পশ্চিম বামুটিয়া,261196
+610.0,3,Gram Panchayat,301854,1,West Belabar,পশ্চিম বেলাবর,2899
+611.0,3,Gram Panchayat,104304,2,West Champamura,পশ্চিম চাম্পামুড়া,261194
+612.0,3,Gram Panchayat,104100,1,West Charakbai,পশ্চিম চরকবাই,6903
+613.0,3,Gram Panchayat,104076,1,West Dalak,পশ্চিম ডালাক,2890
+614.0,3,Gram Panchayat,103966,2,West Dalucherra,পশ্চিম ডলুছড়া,2885
+615.0,3,Gram Panchayat,261221,2,West Dewanpasa,পশ্চিম দেওয়ানপাশা,6904
+616.0,3,Gram Panchayat,104383,1,West Durlovnarayan,পশ্চিম দূর্লভনারায়ন,2904
+617.0,3,Gram Panchayat,261246,2,West Fatikcherra,পশ্চিম ফটিকছড়া,2905
+618.0,3,Gram Panchayat,104418,2,West Gandhigram,পশ্চিম গান্ধীগ্রাম,261196
+619.0,3,Gram Panchayat,104322,2,West Ghilatali,পশ্চিম ঘিলাতলি,2901
+620.0,3,Gram Panchayat,104210,1,West Harina,পশ্চিম হরিনা,2896
+621.0,3,Gram Panchayat,104440,3,West Howaibari,পশ্চিম হাওয়াইবাড়ী,2906
+622.0,3,Gram Panchayat,261215,1,West Ichailalcherra,পশ্চিম ইচ্ছাইলালছেড়া,261185
+623.0,3,Gram Panchayat,104211,1,West Jalefa,পশ্চিম জলেফা,2896
+624.0,3,Gram Panchayat,104094,1,West Jolaibari,পশ্চিম জোলাইবাড়ী,6903
+625.0,3,Gram Panchayat,104191,2,West Kalabaria,পশ্চিম কালাবাড়িয়া,261205
+626.0,3,Gram Panchayat,261247,4,West Kamalghat,পশ্চিম কামালঘাট,2905
+627.0,3,Gram Panchayat,261230,1,West Kanchanbari,পশ্চিম কাঞ্চনবাড়ি,2888
+628.0,3,Gram Panchayat,104095,1,West Kathalia,পশ্চিম কাঠালিয়া,2891
+629.0,3,Gram Panchayat,261286,1,West Khilpara,পশ্চিম খিলপাড়া,2894
+630.0,3,Gram Panchayat,104156,5,West Khupilong,পশ্চিম খুপিলং,261189
+631.0,3,Gram Panchayat,261237,3,West Kuchainala,পস্চিম কুচাইনালা,6905
+632.0,3,Gram Panchayat,103939,4,West Lalchari,পশ্চিম লালছড়ি,2884
+633.0,3,Gram Panchayat,261258,1,West Majlishpur,পশ্চিম মজলিশপুর,2900
+634.0,3,Gram Panchayat,104077,1,West Malbasa,পশ্চিম মালবাসা,2890
+635.0,3,Gram Panchayat,104043,1,West Masauli,পশ্চিম মাসুলি,2888
+636.0,3,Gram Panchayat,104385,1,West Nalchar,পশ্চিম নলছড়,2904
+637.0,3,Gram Panchayat,104305,2,West Noabadi,পশ্চিম নোয়াবাদী,261194
+638.0,3,Gram Panchayat,104306,2,West Noagaon,পশ্চিম নোয়াগাঁও,261194
+639.0,3,Gram Panchayat,261219,2,West Padmabil,পশ্চিম পদ্মবিল,2889
+640.0,3,Gram Panchayat,104184,3,West Paikhola,পশ্চিম পাইখোলা,261205
+641.0,3,Gram Panchayat,104071,2,West Panisagar,পশ্চিম পানিসাগর,2889
+642.0,3,Gram Panchayat,104101,1,West Pillak,পশ্চিম পিলাক,6903
+643.0,3,Gram Panchayat,104192,2,West Pipariakhola,পশ্চিম পিপাড়িয়াখলা,2895
+644.0,3,Gram Panchayat,301844,1,West Pratyekrai,পশ্চিম প্রত্যেকরয়,261185
+645.0,3,Gram Panchayat,104044,2,West Ratacherra,পশ্চিম রাতাছড়া,2888
+646.0,3,Gram Panchayat,104212,4,West Sabroom,পশ্চিম সাব্রুম,2896
+647.0,3,Gram Panchayat,104352,4,West Sonatala,পশ্চিম সোনাতলা,2903
+648.0,3,Gram Panchayat,104441,4,West Teliamura,পশ্চিম তেলিয়ামুড়া,2906
+649.0,3,Gram Panchayat,104059,4,West Tilthai,পশ্চিম তিলথাই,6904
+650.0,3,Gram Panchayat,103998,3,Yeajakhowra,ইয়াজাখাওরা,2886
+,,,,,,,
+"Nov 15, 2026, 11:38 AM"
