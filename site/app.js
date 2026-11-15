@@ -204,16 +204,18 @@
 
   // ---------------------------------------------------------------- water over the term
   function historySection(h, w) {
-    const s = h && h.series && h.series.filter((r) => r.council && r.outside);
+    const s = h && h.series && h.series.filter((r) => r.council && r.rest && r.council.households);
     if (!s || s.length < 2) { $("history-block").style.display = "none"; return; }
     const first = s[0], last = s[s.length - 1];
     const added = last.council.connections - first.council.connections;
-    $("history-text").textContent = `Tap coverage in council villages went from ${pct(first.council.coverage)} in ${first.label} to ${pct(last.council.coverage)} now, about ${fmt(added)} more homes connected. Villages outside the council area went from ${pct(first.outside.coverage)} to ${pct(last.outside.coverage)}.`;
-    Plotly.newPlot("chart-history", ["council", "outside"].map((a) => ({
-      type: "scatter", mode: "lines+markers", name: a === "council" ? "Council villages" : "Outside the council area",
-      x: s.map((r) => r.label), y: s.map((r) => r[a].coverage), line: { width: 2, color: AREA[a] }, marker: { size: 8 },
-      hovertemplate: `%{x}: %{y:.1%}<extra>${a === "council" ? "Council" : "Outside"}</extra>`,
-    })), layout({ showlegend: true, legend: { orientation: "h", y: -0.2 }, yaxis: { tickformat: ".0%", title: "Homes with a tap", gridcolor: css("--rule") }, margin: { l: 70, r: 20, t: 10, b: 70 } }), cfg);
+    const gap0 = ((first.rest.coverage - first.council.coverage) * 100).toFixed(1), gap1 = ((last.rest.coverage - last.council.coverage) * 100).toFixed(1);
+    $("history-text").textContent = `Tap coverage in council villages rose from ${pct(first.council.coverage)} (${first.label}) to ${pct(last.council.coverage)} now, about ${fmt(added)} more homes connected. All other rural villages rose from ${pct(first.rest.coverage)} to ${pct(last.rest.coverage)}, so the gap ${Number(gap1) > Number(gap0) ? "widened" : "narrowed"} from ${gap0} to ${gap1} points.`;
+    const lbl = { council: "Council villages", rest: "All other rural villages" };
+    Plotly.newPlot("chart-history", ["council", "rest"].map((a) => ({
+      type: "scatter", mode: "lines+markers", name: lbl[a],
+      x: s.map((r) => r.label), y: s.map((r) => r[a].coverage), line: { width: 2, color: a === "council" ? AREA.council : AREA.outside }, marker: { size: 8 },
+      hovertemplate: `%{x}: %{y:.1%}<extra>${lbl[a]}</extra>`,
+    })), layout({ showlegend: true, legend: { orientation: "h", y: -0.2 }, yaxis: { tickformat: ".0%", title: "Homes with a tap", gridcolor: css("--rule"), rangemode: "tozero" }, margin: { l: 70, r: 20, t: 10, b: 70 } }), cfg);
   }
 
   // ---------------------------------------------------------------- schools

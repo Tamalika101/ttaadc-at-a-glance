@@ -14,7 +14,7 @@ A data view of the **Tripura Tribal Areas Autonomous District Council (TTAADC)**
 - Tipra Motha Party won **24 of 28 seats** on about 59% of the votes cast for the five main parties. Two seats were decided by under 2 percentage points.
 - Homes in villages wholly under the council are **less likely to have a tap: about 82%, against 89%** in villages outside it. That leaves roughly 48,000 council-village homes without one.
 - **29 council villages are below 50% coverage, against 2 outside the council area.**
-- The gap shows up in 6 of Tripura's 8 districts.
+- The gap shows up in 6 of Tripura's 8 districts, and it widened over the council term: council villages went from about 49% (FY 2021–22) to 82%, while other rural villages went from about 51% to 89%.
 - Six seats changed hands between 2021 and 2026, all to Tipra Motha; the BJP fell from 9 seats to 4.
 - Around 2021–22, council-village schools had fewer pupils per teacher (15.5 vs 20.7), but only 11% taught class 9 or above, against 19% outside the council area.
 

@@ -115,11 +115,11 @@ def history(snapshots: dict, current: pd.DataFrame, current_label: str) -> dict:
         if not rows:
             continue
         v = classify(pd.DataFrame(rows))
-        a = {k: _agg(g) for k, g in v.groupby("area")}
-        series.append({"label": f"FY {fy}", "council": a.get("council"), "outside": a.get("outside"),
+        series.append({"label": f"FY {fy}", "council": _agg(v[v["area"] == "council"]),
+                       "rest": _agg(v[v["area"] != "council"]),
                        "no_lgd_code": int(v["lgd_village_code"].isna().sum())})
-    a = {k: _agg(g) for k, g in current.groupby("area")}
-    series.append({"label": current_label, "council": a.get("council"), "outside": a.get("outside"), "no_lgd_code": 0})
+    series.append({"label": current_label, "council": _agg(current[current["area"] == "council"]),
+                   "rest": _agg(current[current["area"] != "council"]), "no_lgd_code": 0})
 
     zones_change = []
     first = next((fy for fy, rows in sorted(snapshots.items()) if rows), None)
