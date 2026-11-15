@@ -1,0 +1,62 @@
+name: Refresh data and publish site
+
+on:
+  schedule:
+    - cron: "41 2 * * 1"     # every Monday 02:41 UTC (08:11 IST)
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Download latest water data (Jal Jeevan Mission)
+        run: python -m pipeline.fetch_jjm
+
+      - name: Build site data
+        run: python -m pipeline.run_all
+
+      - name: Summary
+        run: python -m pipeline.summary >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Stamp asset versions (so browsers load the latest build)
+        run: sed -i "s/style.css\"/style.css?v=${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}\"/; s/app.js\"/app.js?v=${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}\"/" site/index.html
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

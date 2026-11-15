@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTAADC at a Glance: the 2026 election and drinking water in Tripura's tribal council area</title>
+<meta name="description" content="A data view of the Tripura Tribal Areas Autonomous District Council: who won each seat in 2026, and how many homes in the council area have tap water.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="kicker">A data view · Tripura, India</p>
+  <h1>TTAADC at a Glance</h1>
+  <p class="dek">The Tripura Tribal Areas Autonomous District Council governs about two-thirds of Tripura's land and its tribal communities. This page shows who represents each part of the council area after the April 2026 election, and how far piped drinking water has reached its villages.</p>
+  <div class="stats" id="hero-stats"></div>
+  <p class="updated" id="updated"></p>
+  <nav class="toc"><a href="#election">1 · 2026 election</a><a href="#water">2 · Drinking water</a><a href="#method">Method &amp; sources</a></nav>
+</header>
+
+<main>
+<section id="election" class="act">
+  <p class="act-label">Section 1</p>
+  <h2>The 2026 council election</h2>
+  <p class="lede" id="election-lede"></p>
+
+  <article class="block">
+    <h3>Seats and votes</h3>
+    <p id="votes-text"></p>
+    <div id="chart-votes" class="chart short"></div>
+  </article>
+
+  <article class="block">
+    <h3>How strongly each seat was won</h3>
+    <p id="margin-text"></p>
+    <div id="chart-margins" class="chart xtall"></div>
+    <div class="legend" id="legend-margins"></div>
+  </article>
+
+  <article class="block">
+    <h3>The closest contests</h3>
+    <div id="close-table" class="table-wrap"></div>
+  </article>
+
+  <details class="block">
+    <summary>All 28 results</summary>
+    <div id="results-table" class="table-wrap"></div>
+  </details>
+</section>
+
+<section id="water" class="act alt">
+  <p class="act-label">Section 2</p>
+  <h2>Drinking water</h2>
+  <p class="lede">Under the national Jal Jeevan Mission, every rural home is meant to get a working household tap. Here's how the council's own villages compare with the rest of rural Tripura, using the mission's village-by-village records.</p>
+
+  <article class="block">
+    <h3>The council area lags behind</h3>
+    <div id="water-gap" class="gap"></div>
+    <p id="water-gap-text"></p>
+  </article>
+
+  <article class="block">
+    <h3>Most villages are close, but some are far behind</h3>
+    <p id="dist-text"></p>
+    <div id="chart-dist" class="chart"></div>
+  </article>
+
+  <article class="block">
+    <h3>Coverage across the council's zones</h3>
+    <p id="zones-text"></p>
+    <div id="chart-zones" class="chart xtall"></div>
+  </article>
+
+  <article class="block">
+    <h3 id="districts-h">Council villages compared with the rest of each district</h3>
+    <p id="districts-text"></p>
+    <div id="chart-districts" class="chart"></div>
+  </article>
+
+  <article class="block">
+    <h3>Council villages furthest behind</h3>
+    <p>Villages with at least 50 households, lowest tap coverage first.</p>
+    <div id="behind-table" class="table-wrap"></div>
+  </article>
+
+  <article class="block finder">
+    <h3>Look up a village</h3>
+    <p>Search any village wholly or partly in the council area.</p>
+    <input id="village-input" type="text" placeholder="Type a village name, e.g. Kulai" autocomplete="off" aria-label="Village name">
+    <div id="village-result" class="table-wrap" aria-live="polite"></div>
+  </article>
+</section>
+
+<section id="method" class="act method">
+  <h2>Method &amp; limitations</h2>
+  <div id="method-body">
+    <p><b>Election.</b> The official results portal of the Tripura State Election Commission cannot be opened from outside India, so the constituency results were compiled from Wikipedia's results table and checked against news reports (India TV, Tripura Star News, Voterlist.co.in). Only the winner and runner-up are listed for each seat. Margin in points is the winner's vote share minus the runner-up's.</p>
+    <p><b>Which villages are in the council area.</b> The government's Local Government Directory (LGD) lists the council's 587 village councils and links every other village to a Gram Panchayat. A village with no Gram Panchayat is counted as wholly in the council area. A village that has Gram Panchayats but where the water records also name a council village council is counted as <em>split</em>. The water records give one figure per village, so split villages are shown separately rather than divided.</p>
+    <p><b>Zones</b> are the council's 40 Block Advisory Committees, the level between the council and its village councils. Zone figures cover only villages wholly in the council area, so a zone made up mostly of split villages may show only a few villages. Constituency-level water figures are not shown: no public list maps villages to the 28 constituencies.</p>
+    <p><b>Water data</b> are reported by state water departments to the Jal Jeevan Mission and are not independently verified. They count tap connections, not whether water flows reliably or is safe to drink. Jobs data (MGNREGA, replaced by VB-G RAM G in July 2026) are not included yet: the official portal is unreachable from outside India and data are still moving to the new scheme.</p>
+  </div>
+  <h3>Sources</h3>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/2026_Tripura_Tribal_Areas_Autonomous_District_Council_election">2026 TTAADC election</a> (Wikipedia), cross-checked with <a href="https://www.tripurastarnews.com/?p=108624">Tripura Star News</a> and <a href="https://voterlist.co.in/ttaadc-election-results-2026-live-counting-updates/">Voterlist.co.in</a></li>
+    <li><a href="https://ejalshakti.gov.in/JJM/JJMReports/Physical/JJMRep_VillageWiseFHTCCoverage.aspx">Jal Jeevan Mission, Format J7: village-wise tap connection coverage</a> (Ministry of Jal Shakti)</li>
+    <li><a href="https://lgdirectory.gov.in/">Local Government Directory</a> (Ministry of Panchayati Raj): Tripura villages, Gram Panchayats and TTAADC village councils</li>
+  </ul>
+</section>
+</main>
+
+<footer>
+  <p>Built by Tamalika. Code and data on <a href="https://github.com/Tamalika101/ttaadc-at-a-glance">GitHub</a>. The water figures refresh automatically every week. This page presents public data without political commentary.</p>
+</footer>
+
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
